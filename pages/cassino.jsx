@@ -49,7 +49,6 @@ export default function CasinoPage() {
           </ul>
         </div>
 
-        {/* Section 2 */}
         <div className="space-y-4">
           <h2 className="text-2xl font-semibold">
             {t("Casino.section2.title")}
@@ -61,7 +60,6 @@ export default function CasinoPage() {
           </ul>
         </div>
 
-        {/* Section 3 */}
         <div className="space-y-4">
           <h2 className="text-2xl font-semibold">
             {t("Casino.section3.title")}
