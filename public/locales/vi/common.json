@@ -1,0 +1,697 @@
+{
+  "sectionCardItem": {
+    "title": "Chào mừng đến với sòng bạc 99U",
+    "description": "Bạn đang tìm kiếm một sòng bạc USDT trực tuyến vừa thú vị, an toàn và công bằng? Hãy thử ngay 99U! Dưới đây là lý do bạn nên trải nghiệm chúng tôi:",
+    "items": [
+      {
+        "title": "Ẩn danh và nhanh chóng, không cần thông tin cá nhân",
+        "description": "Không cần cung cấp giấy tờ tùy thân,\nchỉ cần kết nối ví tiền mã hóa để chơi"
+      },
+      {
+        "title": "Nạp và rút tiền nhanh chóng",
+        "description": "Hỗ trợ USDT, BTC, ETH — nạp tiền tức thì, rút tiền chỉ trong 30 giây"
+      },
+      {
+        "title": "Người chơi toàn cầu đều có thể tham gia",
+        "description": "Không giới hạn khu vực, không cần ngân hàng hay bên thứ ba phê duyệt, có thể đặt cược mọi lúc mọi nơi"
+      },
+      {
+        "title": "Hỗ trợ khách hàng 24/7",
+        "description": "Đội ngũ hỗ trợ chuyên nghiệp, phục vụ 24/7 để giúp đỡ bạn"
+      },
+      {
+        "title": "Thanh toán dễ dàng",
+        "description": "Nạp/rút an toàn với nhiều phương thức thanh toán"
+      },
+      {
+        "title": "Nhà điều hành uy tín và hợp pháp",
+        "description": "Chúng tôi là một sòng bạc tiền mã hóa có giấy phép và được quản lý hợp pháp"
+      }
+    ]
+  },
+  "sectionBlog": {
+    "title": "Thưởng nạp đầu tiên 100% cho người dùng mới, tối đa 1000 USDT",
+    "description": "Tham gia 99U Casino — hỗ trợ nhiều blockchain và tiền pháp định quốc tế. Với mục tiêu toàn cầu hóa và không rào cản, công nghệ blockchain minh bạch và không thể thay đổi mang đến trải nghiệm công bằng cho người dùng toàn thế giới",
+    "register": "Đăng ký ngay"
+  },
+  "sectionGrid": {
+  "title": "Sòng bạc USDT trực tuyến an toàn nhất",
+  "description": "99U Casino mang đến cho bạn công nghệ blockchain tiên tiến cùng hàng loạt trò chơi sòng bạc phong phú, tạo nên nền tảng cá cược trực tuyến hiện đại bậc nhất.",
+  "items": [
+    {
+      "title": "Hỗ trợ gửi và rút tiền với nhiều loại tiền tệ",
+      "description": "Người chơi toàn cầu dễ dàng nạp rút – chơi không biên giới!",
+      "image": "/images/grid/spectator-large-CEvVmYmT.webp"
+    },
+    {
+      "title": "Trò chơi dựa trên công nghệ Blockchain",
+      "description": "Công bằng, minh bạch và có thể kiểm chứng – trải nghiệm cảm giác phi tập trung thực sự",
+      "image": "/images/grid/useful-tools-smart-betting-large-tah47nxL.webp"
+    },
+    {
+      "title": "Hệ thống VIP",
+      "description": "Cấp càng cao, quyền lợi càng lớn, phần thưởng càng nhiều!",
+      "image": "/images/grid/spectator-large-CEvVmYmT.webp"
+    },
+    {
+      "title": "Kho trò chơi hấp dẫn",
+      "description": "Hàng loạt trò chơi kịch tính chờ bạn khám phá",
+      "image": "/images/grid/spectator-large-CEvVmYmT.webp"
+    },
+    {
+      "title": "Đại lý toàn dân – Nhận thu nhập mỗi ngày",
+      "description": "Tham gia không cần điều kiện – thanh toán mỗi ngày, kiếm tiền ngay cả khi nghỉ ngơi",
+      "image": "/images/grid/spectator-large-CEvVmYmT.webp"
+    }
+  ]
+}
+,
+  "hero": {
+    "title1": "Sòng bạc có ưu đãi nhiều nhất",
+    "title2": "Sòng bạc tiền mã hóa USDT",
+    "title3": "Sòng bạc",
+    "bonusTitle": "Thưởng nạp đầu tiên 100% cho người mới",
+    "bonusDesc": "Tham gia chương trình khuyến mãi của 99U để bắt đầu hành trình giải trí trực tuyến!",
+    "register": "Đăng ký ngay"
+  },
+  
+ "SoltMachineHero": {
+  "title": "Trò chơi slot trực tuyến phổ biến nhất",
+  "description": "Tại sao nên chơi slot trực tuyến tại 99U"
+}
+,
+  "slotTutorial": {
+  "title": "Tính năng và Hướng dẫn Máy đánh bạc",
+  "cards": [
+    {
+      "title": "An toàn hàng đầu, chơi thoải mái!",
+      "description": "Chúng tôi sử dụng RNG được chứng nhận quốc tế để đảm bảo mọi lần thắng đều công bằng và xác thực. Vận hành có giấy phép, kiểm soát rủi ro, hỗ trợ tức thì và giao dịch nhanh chóng giúp bạn chơi vui và thắng an toàn!",
+      "image": "/images/solt-machine/card-img01.png"
+    },
+    {
+      "title": "Đánh giá thực tế, được khen ngợi cao!",
+      "description": "Mỗi khoảnh khắc trúng giải độc đắc của người chơi đều được chia sẻ trong đánh giá. Từ vòng quay đầu tiên thắng lớn đến chuỗi kết hợp khủng — tất cả đều là thật, giúp bạn tự tin trước khi đặt cược!",
+      "image": "/images/solt-machine/card-img04.png"
+    },
+    {
+      "title": "Công bằng & Minh bạch, Rút tiền nhanh chóng!",
+      "description": "Nền tảng của chúng tôi có giấy phép và được chứng nhận bởi tổ chức bên thứ ba. Rút tiền nhanh, hỗ trợ 24/7 — an toàn cho cả điện thoại và máy tính!",
+      "image": "/images/solt-machine/card-img02.png"
+    },
+    {
+      "title": "Trò chơi hàng đầu dành riêng cho bạn!",
+      "description": "Hơn 100 trò chơi được cấp phép, từ 777 cổ điển đến máy đánh bạc mua vào — nơi bạn sẽ tìm thấy vận may của mình!",
+      "image": "/images/solt-machine/card-img03.png"
+    }
+  ]
+},
+"slotSection": {
+  "title": "Về trò chơi máy đánh bạc",
+  "subtitle": "Chơi ngay không cần tải xuống",
+  "tabs": {
+    "slot": "Máy đánh bạc",
+    "poker": "Trò chơi bài",
+    "twentyone": "Xì dách (21)",
+    "roulette": "Roulette"
+  }
+},
+"blogCardGrid": {
+  "loading": "Đang tải...",
+  "noPosts": "Không tìm thấy bài viết phù hợp.",
+  "noExcerpt": "Bài viết này không có phần tóm tắt.",
+  "readMore": "Xem thêm",
+  "goNow": "Xem ngay"
+},
+"footerSection": {
+    "desc": "99Ubit là nền tảng cá cược tiền mã hóa dành riêng cho người chơi giải trí, hỗ trợ nhiều chuỗi và đồng tiền, đảm bảo quyền riêng tư, an toàn và công bằng. Cung cấp nhiều trò chơi và ưu đãi độc quyền giúp người dùng toàn cầu chơi thỏa thích.",
+    "title1": "Trò chơi phổ biến",
+    "game": {
+      "slot": "Máy đánh bạc",
+      "baccarat": "Baccarat trực tiếp",
+      "sports": "Sự kiện thể thao",
+      "fish": "Bắn cá",
+      "poker": "Trò chơi bài"
+    },
+    "title2": "Mạng xã hội",
+    "title3": "Thông tin thêm",
+    "about": "Giới thiệu",
+    "privacy": "Chính sách quyền riêng tư",
+    "terms": "Điều khoản dịch vụ",
+    "faq": "Câu hỏi thường gặp",
+    "responsible": "Chơi game có trách nhiệm",
+    "contact": "Email liên hệ"
+  },
+  "bonus": {
+    "hero": {
+      "title": "Khuyến mãi trò chơi trực tuyến",
+      "description": "Natural8, trang poker trực tuyến phát triển nhanh nhất thế giới, cung cấp tiền thưởng nạp, giải đấu miễn phí, bảng xếp hạng và nhiều quà tặng hấp dẫn!",
+      "playNow": "Chơi ngay"
+    },
+    "card1": {
+      "title": "Thưởng lớn cho người dùng mới",
+      "description": "Tại 99U Entertainment, phần thưởng dành cho người dùng mới kết hợp với chương trình khuyến mãi hấp dẫn giúp bạn dễ dàng bắt đầu và kiếm thưởng khi khám phá thế giới poker.",
+      "link": "Xem chi tiết tại 99U Entertainment"
+    },
+    "card2": {
+      "title": "Thưởng lớn cho người dùng mới",
+      "description": "Tại 99U Entertainment, phần thưởng dành cho người dùng mới kết hợp với chương trình khuyến mãi hấp dẫn giúp bạn dễ dàng bắt đầu và kiếm thưởng khi khám phá thế giới poker.",
+      "link": "Xem chi tiết tại 99U Entertainment"
+    },
+    "map": {
+      "title": "Chơi được toàn cầu",
+      "description": "Lorem ipsum dolor sit amet consectetur"
+    },
+    "maispin": {
+      "title": "Maispin tặng 50% cho lần nạp đầu",
+      "description": "Thành viên mới nạp tiền lần đầu được tặng thưởng lên tới 100U. Sau khi hoàn thành điều kiện cược có thể rút tiền. Thưởng lớn từ lúc bắt đầu.",
+      "registerBtn": "Đăng ký ngay"
+    }
+  },
+    "OnlineGame": {
+    "title": "Trò chơi casino online｜Trải nghiệm giải trí đỉnh cao",
+    "description": "Tham gia poker, blackjack, roulette và nhiều trò chơi hấp dẫn khác mỗi ngày. Nhận thưởng và bắt đầu ngay!",
+    "hero": {
+      "title": "Trò chơi bàn trực tuyến phổ biến"
+    },
+    "category": {
+      "title": "Thể loại phổ biến",
+      "description": "Từ poker, roulette đến blackjack – chúng tôi lựa chọn trò chơi được yêu thích nhất"
+    },
+    "tag": {
+      "roulette": "Roulette",
+      "blackjack": "Xì dách",
+      "baccarat": "Poker",
+        "casino": "Baccarat"
+    },
+    "tagDesc": {
+      "roulette": "Trò chơi quay bánh xe cổ điển – cược đỏ đen và thử vận may!",
+      "blackjack": "Thử thách để đạt 21 điểm không bị cháy. Chiến thuật kết hợp may mắn!",
+      "baccarat": "Poker được yêu thích bởi mọi người chơi, từ mới đến chuyên nghiệp",
+        "casino": "Từ poker, roulette, baccarat đến blackjack, chúng tôi tuyển chọn những trò chơi kinh điển phổ biến nhất dành cho bạn."
+    },
+    "tagContent": {
+      "roulette": "Roulette là trò chơi may rủi cổ điển, người chơi đặt cược vào màu hoặc số. Vòng quay quyết định thắng thua.",
+      "blackjack": "Xì dách là trò chơi bài yêu cầu chiến lược, đạt càng gần 21 điểm càng tốt mà không bị vượt.",
+      "baccarat": "Poker là trò chơi kết hợp giữa chiến lược và xác suất. Có nhiều biến thể và phần thưởng hấp dẫn."
+    },
+    "article": {
+      "title": "Chuyên mục trò chơi casino",
+      "subtitle": "Hiểu rõ cách chơi và chiến thuật để nâng cao tỷ lệ thắng"
+    }
+  },
+   "About": {
+    "meta": {
+      "title": "Về 99U Casino",
+      "description": "Khám phá tầm nhìn thương hiệu, câu chuyện và triết lý của 99U Casino. Bắt đầu hành trình chinh phục tài chính và giải trí ngay hôm nay."
+    },
+    "hero": {
+      "title": "Giới thiệu 99U Casino"
+    },
+    "vision": {
+      "title": "Tầm nhìn thương hiệu",
+      "paragraph1": "99U Casino cam kết tạo nên thế giới giải trí nhập vai kết hợp tiền điện tử, cho phép người chơi trải nghiệm mượt mà giữa tiền mặt và tài sản số.",
+      "paragraph2": "Không chỉ là cá cược trực tuyến, đây còn là hành trình chiến lược chinh phục tài sản. Mỗi người chơi là nhân vật chính trong câu chuyện riêng của mình."
+    },
+    "story": {
+      "title": "Câu chuyện thương hiệu",
+      "paragraph1": "99U Casino được sinh ra từ niềm đam mê và sự sáng tạo không giới hạn với giải trí số.",
+      "paragraph2": "Chúng tôi tin rằng mỗi trò chơi là một trải nghiệm sâu sắc về rủi ro, cơ hội và trí tuệ — không chỉ đơn thuần là thắng thua.",
+      "paragraph3": "Dù bạn là người mới hay cao thủ, 99U sẽ là sân chơi để bạn thực hiện chiến lược và hướng đến mục tiêu tài chính."
+    },
+    "mission": {
+      "title": "Triết lý thương hiệu",
+      "p1": "Khám phá khả năng vô hạn của tài sản là giá trị cốt lõi của chúng tôi.",
+      "p2": "Tại 99U, cược không chỉ là may mắn mà là tầm nhìn và chiến thuật của mỗi người chơi.",
+      "p3": "Chúng tôi ứng dụng tiền ảo, hệ thống game mạnh mẽ và công nghệ blockchain minh bạch để mang lại trải nghiệm giải trí và cơ hội tài chính cùng lúc.",
+      "statement": "Sứ mệnh của chúng tôi:",
+      "list": [
+        "Kết hợp công nghệ và giải trí để tạo trải nghiệm đắm chìm",
+        "Khơi dậy khả năng chiến thuật trong mỗi người chơi",
+        "Mang lại cảm giác thỏa mãn từ quyết định thông minh"
+      ],
+      "p4": "Chúng tôi tin rằng giá trị tài sản không chỉ nằm ở kết quả mà còn là hành trình đưa ra những quyết định đúng đắn."
+    },
+    "cta": {
+      "title": "Tham gia 99U và bắt đầu hành trình khám phá tài sản",
+      "p1": "99U là nền tảng thế hệ mới kết nối tiền mặt và tài sản số, tạo nên thế giới 'giải trí + tài chính' cho từng người chơi.",
+      "p2": "Hãy tham gia ngay hôm nay để bắt đầu hành trình kết hợp trí tuệ và chiến thuật của riêng bạn!"
+    }
+  },
+  "Service": {
+    "meta": {
+      "title": "Điều khoản dịch vụ",
+      "description": "Vui lòng đọc điều khoản dịch vụ của chúng tôi để hiểu về cách chúng tôi thu thập và sử dụng dữ liệu."
+    },
+    "hero": {
+      "title": "Điều khoản dịch vụ"
+    },
+    "intro": "Chào mừng bạn đến với ứng dụng của chúng tôi (sau đây gọi là “Dịch vụ”). Để bảo vệ thông tin cá nhân của bạn và giúp bạn hiểu cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ dữ liệu, vui lòng đọc kỹ các điều khoản dưới đây.",
+    "sections": {
+      "section1": {
+        "title": "1. Sử dụng Dịch vụ đồng nghĩa bạn đồng ý với các chính sách sau",
+        "paragraph1": "Khi bạn chọn sử dụng Dịch vụ, điều đó có nghĩa là bạn hiểu và đồng ý rằng chúng tôi sẽ thu thập và xử lý dữ liệu của bạn theo chính sách này."
+      },
+      "section2": {
+        "title": "2. Các loại dữ liệu chúng tôi thu thập",
+        "paragraph1": "1. Dữ liệu cá nhân",
+        "list1": [
+          "Tên và địa chỉ email",
+          "Mã định danh thiết bị, địa chỉ IP",
+          "Hành vi sử dụng và dữ liệu chẩn đoán (như loại trình duyệt, hệ điều hành, thời gian sử dụng, v.v.)"
+        ],
+        "paragraph2": "2. Dữ liệu sử dụng",
+        "list2": [
+          "Trang đã truy cập và thời gian ở lại",
+          "Thời gian truy cập và thông tin thiết bị",
+          "Báo cáo lỗi và dữ liệu kỹ thuật"
+        ],
+        "paragraph3": "3. Dữ liệu đăng nhập từ bên thứ ba",
+        "list3": [
+          "Tên và địa chỉ email",
+          "Thông tin công khai trên tài khoản (như danh sách liên hệ)"
+        ]
+      },
+      "section3": {
+        "title": "3. Mục đích sử dụng dữ liệu cá nhân",
+        "list1": [
+          "Cung cấp và duy trì chất lượng dịch vụ",
+          "Tối ưu hóa trải nghiệm người dùng và cải thiện chức năng",
+          "Cung cấp hỗ trợ kỹ thuật và trợ giúp người dùng",
+          "Gửi thông báo hệ thống và cập nhật quan trọng"
+        ]
+      },
+      "section4": {
+        "title": "4. Nguyên tắc tiết lộ thông tin",
+        "paragraph1": "Chúng tôi không bán, trao đổi hoặc chuyển giao dữ liệu cá nhân của bạn cho bên thứ ba. Tuy nhiên, trong các trường hợp sau, chúng tôi có thể tiết lộ thông tin:",
+        "list1": [
+          "Theo yêu cầu hợp pháp từ pháp luật hoặc cơ quan chức năng",
+          "Để bảo vệ quyền lợi, tài sản và sự an toàn của chúng tôi hoặc người khác",
+          "Trong các tình huống khác khi bạn đã đồng ý rõ ràng"
+        ]
+      },
+      "section5": {
+        "title": "5. Bảo mật và bảo vệ dữ liệu",
+        "list1": [
+          "Tất cả dữ liệu được mã hóa và lưu trữ an toàn",
+          "Sử dụng Cloudflare và tường lửa để bảo vệ",
+          "Chỉ cho phép truy cập máy chủ thông qua xác thực VPN",
+          "Máy chủ và bản sao lưu đều được mã hóa và sao lưu tại địa điểm khác"
+        ]
+      },
+      "section6": {
+        "title": "6. Chính sách Cookie",
+        "paragraph1": "1. Cookie là gì?",
+        "paragraph2": "Cookie là tệp văn bản nhỏ được lưu trên thiết bị của bạn nhằm nhận diện bạn khi quay lại trang web của chúng tôi.",
+        "paragraph3": "2. Mục đích sử dụng Cookie",
+        "list1": [
+          "Lưu cài đặt ưu tiên người dùng",
+          "Duy trì trạng thái đăng nhập",
+          "Theo dõi lưu lượng và nguồn truy cập trang web"
+        ],
+        "paragraph4": "3. Loại và tên Cookie",
+        "table": {
+          "head": [
+            "Tên",
+            "Chức năng",
+            "Thời hạn"
+          ],
+          "rows": [
+            [
+              "_fp",
+              "Lưu dấu vân tay trình duyệt",
+              "Vĩnh viễn"
+            ],
+            [
+              "_t",
+              "Ghi nhận thời điểm truy cập",
+              "Phiên duyệt"
+            ],
+            [
+              "_r",
+              "Theo dõi URL giới thiệu",
+              "Phiên duyệt"
+            ],
+            [
+              "_c",
+              "Gắn thẻ tiếp thị liên kết",
+              "Vĩnh viễn"
+            ]
+          ]
+        },
+        "paragraph5": "Cookie bên thứ ba bao gồm:",
+        "list2": [
+          "Google Analytics (_ga, _gat, _gid)",
+          "Zendesk (__zlcmid)",
+          "Cloudflare (__cfuid)"
+        ],
+        "paragraph6": "4. Quản lý Cookie",
+        "paragraph7": "Bạn có thể kiểm soát hoặc tắt Cookie thông qua cài đặt trình duyệt của mình."
+      },
+      "section7": {
+        "title": "7. Chính sách người dùng chưa đủ tuổi",
+        "paragraph1": "Dịch vụ này không dành cho người dùng dưới 18 tuổi. Nếu bạn là trẻ vị thành niên, bạn cần có sự đồng ý của cha mẹ hoặc người giám hộ để sử dụng Dịch vụ."
+      },
+      "section8": {
+        "title": "8. Thay đổi chính sách quyền riêng tư",
+        "paragraph1": "Chúng tôi có quyền cập nhật chính sách này bất kỳ lúc nào. Mọi thay đổi sẽ được công bố trên trang này và các thay đổi quan trọng sẽ được thông báo qua ứng dụng."
+      },
+      "section9": {
+        "title": "9. Chuyển dữ liệu quốc tế và chia sẻ bên thứ ba",
+        "paragraph1": "Trong các trường hợp hợp pháp và cần thiết (ví dụ: hỗ trợ khách hàng), chúng tôi có thể chia sẻ dữ liệu với bên thứ ba, bao gồm:",
+        "list1": [
+          "Zendesk Inc.: Dùng để xử lý trò chuyện trực tuyến và email hỗ trợ (như tên người dùng và địa chỉ email)"
+        ]
+      },
+      "section10": {
+        "title": "10. Xoá dữ liệu và quyền của người dùng",
+        "paragraph1": "Nếu bạn muốn xoá dữ liệu cá nhân, vui lòng liên hệ với chúng tôi để gửi yêu cầu. Tuy nhiên, nếu theo quy định pháp luật cần lưu trữ dữ liệu, chúng tôi có thể không xoá ngay lập tức."
+      },
+      "section11": {
+        "title": "11. Thông báo rò rỉ dữ liệu",
+        "paragraph1": "Nếu xảy ra sự cố rò rỉ dữ liệu cá nhân, chúng tôi sẽ thông báo cho người dùng trong thời gian pháp lý quy định theo GDPR hoặc luật áp dụng khác."
+      },
+      "section12": {
+        "title": "12. Báo lỗi và hỗ trợ",
+        "paragraph1": "Nếu bạn gặp sự cố khi sử dụng Dịch vụ, vui lòng cung cấp các thông tin sau để chúng tôi hỗ trợ nhanh chóng:",
+        "list1": [
+          "Tên tài khoản của bạn",
+          "Thời gian và mô tả lỗi",
+          "Ảnh chụp màn hình lỗi (nếu có)",
+          "Mã trò chơi hoặc tên bàn (nếu có)"
+        ],
+        "paragraph2": "Nếu bạn có bất kỳ câu hỏi nào về điều khoản này, vui lòng liên hệ với chúng tôi qua kênh hỗ trợ khách hàng."
+      }
+    }
+  }
+,
+ "About": {
+  "hero": {
+    "title": "Giới thiệu về 99U Casino"
+  },
+  "vision": {
+    "title": "Tầm nhìn thương hiệu",
+    "paragraph1": "99U Casino hướng đến việc xây dựng một thế giới giải trí kết hợp giữa tiền mã hóa và trải nghiệm nhập vai cao, dẫn dắt người chơi xuyên suốt giữa tiền mặt và tài sản số, mở ra một hành trình cá cược chưa từng có.",
+    "paragraph2": "Đây không chỉ là sòng bạc trực tuyến, mà còn là một cuộc phiêu lưu đầy chiến lược và cơ hội làm giàu. Tại đây, mỗi người chơi là nhân vật chính trong thế giới trò chơi, tự viết nên huyền thoại tài chính của riêng mình qua lựa chọn và phán đoán cá nhân."
+  },
+  "story": {
+    "title": "Câu chuyện thương hiệu",
+    "paragraph1": "99U Casino ra đời từ sự tưởng tượng vô hạn và đam mê sáng tạo trong thế giới giải trí số.",
+    "paragraph2": "Chúng tôi tin rằng mỗi ván chơi không chỉ là sự đối đầu giữa thắng và thua, mà là một trải nghiệm sâu sắc về rủi ro, cơ hội và trí tuệ. Trên nền tảng này, mỗi lần đặt cược và mỗi chiến lược đều đang viết nên chương mới trong câu chuyện cá cược của bạn.",
+    "paragraph3": "Dù bạn là người chơi mới hay cao thủ kỳ cựu, 99U luôn là sân khấu nơi chiến lược và mục tiêu tài chính gặp nhau."
+  },
+  "mission": {
+    "title": "Sứ mệnh thương hiệu",
+    "p1": "Khám phá tiềm năng tài chính vô hạn là giá trị cốt lõi của chúng tôi.",
+    "p2": "Tại 99U, chúng tôi tin rằng đặt cược không chỉ là trò chơi may rủi, mà là sự thể hiện tầm nhìn, sự phán đoán và khả năng sử dụng chiến lược của từng cá nhân.",
+    "p3": "Chúng tôi ứng dụng công nghệ tiên tiến với tiền mã hóa, hệ thống trò chơi mạnh mẽ và công nghệ blockchain minh bạch để giúp người chơi vừa giải trí vừa chinh phục mục tiêu tài chính đầy cảm hứng.",
+    "statement": "Sứ mệnh của chúng tôi là:",
+    "list": [
+      "Kết hợp công nghệ và giải trí để tạo ra trải nghiệm chơi game nhập vai sâu sắc",
+      "Khơi dậy tiềm năng chiến lược của người chơi, giúp mỗi lần đặt cược thêm ý nghĩa",
+      "Giúp người chơi cảm nhận sự hài lòng và thành tựu thông qua lựa chọn và trí tuệ trong hành trình khám phá"
+    ],
+    "p4": "Chúng tôi tin rằng giá trị của sự giàu có không chỉ nằm ở kết quả, mà còn ở mỗi quyết định và nhận thức trong quá trình đạt được nó."
+  },
+  "cta": {
+    "title": "Tham gia 99U – Bắt đầu hành trình khám phá tài chính của bạn",
+    "p1": "99U Casino là nền tảng cá cược thế hệ mới kết nối giữa tiền mặt và tài sản số, tạo ra thế giới 'giải trí + tài chính' dành riêng cho từng người chơi.",
+    "p2": "Tham gia 99U ngay hôm nay để bắt đầu hành trình giải trí đan xen trí tuệ và chiến lược – nơi mở ra những tiềm năng vô tận dành riêng cho bạn!"
+  }
+},"Policy": {
+    "title": "Chính sách quyền riêng tư",
+    "meta": {
+      "title": "Chính sách quyền riêng tư",
+      "description": "Chúng tôi rất coi trọng dữ liệu cá nhân và quyền riêng tư của bạn. Vui lòng đọc kỹ nội dung chính sách."
+    },
+    "intro": "Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn theo quy định của Luật Bảo vệ Dữ liệu Cá nhân và các quy định pháp luật liên quan. Vui lòng đọc kỹ nội dung chính sách dưới đây để hiểu rõ cách chúng tôi thu thập, sử dụng, lưu trữ và bảo vệ dữ liệu của bạn.",
+    "section1": {
+      "title": "1. Mục đích thu thập và sử dụng dữ liệu",
+      "list": [
+        "Khi bạn sử dụng trang web này và tham gia trò chơi, có nghĩa là bạn hiểu và đồng ý cho phép chúng tôi thu thập và sử dụng dữ liệu cá nhân của bạn trong phạm vi cần thiết để cung cấp trải nghiệm dịch vụ đầy đủ.",
+        "Thông tin cá nhân chúng tôi thu thập chỉ được sử dụng cho các mục đích sau:"
+      ],
+      "sublist": [
+        "Xác minh danh tính và quản lý tài khoản của bạn",
+        "Hỗ trợ bạn tham gia trò chơi và thực hiện các thao tác liên quan",
+        "Cung cấp hỗ trợ kỹ thuật và dịch vụ khách hàng",
+        "Gửi cho bạn các bản cập nhật trò chơi, tính năng mới, sự kiện và ưu đãi mà chúng tôi nghĩ bạn có thể quan tâm"
+      ],
+      "note": "Nếu bạn không muốn nhận bất kỳ nội dung tiếp thị nào, bạn có thể hủy đăng ký hoặc thông báo cho chúng tôi để ngừng gửi."
+    },
+    "section2": {
+      "title": "2. Bảo vệ dữ liệu và tuân thủ pháp luật",
+      "list": [
+        "Chúng tôi cam kết bảo vệ dữ liệu cá nhân của bạn theo Luật Bảo vệ Dữ liệu Cá nhân và các tiêu chuẩn thực tiễn tốt nhất, đảm bảo dữ liệu không bị truy cập, sử dụng hoặc tiết lộ trái phép.",
+        "Tất cả hoạt động xử lý dữ liệu đều được thực hiện hợp pháp, chính đáng và có mục đích cụ thể, đồng thời tôn trọng quyền riêng tư cá nhân của bạn."
+      ]
+    },
+    "section3": {
+      "title": "3. Nguyên tắc tiết lộ dữ liệu cho bên thứ ba",
+      "list": [
+        "Chúng tôi sẽ không tiết lộ dữ liệu cá nhân của bạn cho bất kỳ bên thứ ba nào trừ khi có yêu cầu pháp lý hoặc cần thiết cho việc thực hiện các chức năng kinh doanh.",
+        "Tuy nhiên, trong các trường hợp sau, chúng tôi có thể tiết lộ dữ liệu của bạn cho đối tác, nhà cung cấp hệ thống hoặc nhà cung cấp dịch vụ:"
+      ],
+      "sublist": [
+        "Đảm bảo trang web hoạt động bình thường",
+        "Thực hiện chức năng và bảo trì dịch vụ trò chơi",
+        "Cung cấp hỗ trợ khách hàng"
+      ],
+      "note": "Các bên nhận dữ liệu chỉ được phép truy cập thông tin trong phạm vi cần thiết và phải tuân thủ nghĩa vụ bảo mật theo chính sách này."
+    },
+    "section4": {
+      "title": "4. Truy cập và lưu trữ dữ liệu",
+      "list": [
+        "Chúng tôi sẽ lưu trữ thông tin cá nhân bạn cung cấp để duy trì mối quan hệ dịch vụ và hoạt động tài khoản.",
+        "Trừ khi pháp luật yêu cầu hoặc cần thiết cho mục đích lưu trữ hồ sơ giao dịch, chúng tôi sẽ không lưu giữ hoặc xóa dữ liệu một cách tùy tiện.",
+        "Bạn có quyền yêu cầu truy cập, xem, bổ sung, chỉnh sửa hoặc xóa thông tin cá nhân của mình. Nếu bạn muốn thực hiện quyền này, vui lòng liên hệ với bộ phận chăm sóc khách hàng của chúng tôi."
+      ]
+    },
+    "section5": {
+      "title": "5. Chính sách sử dụng Cookie",
+      "list": [
+        "Để nâng cao trải nghiệm sử dụng và chất lượng dịch vụ, chúng tôi sử dụng công nghệ Cookie để thu thập thông tin duyệt web như thiết bị, lịch sử truy cập,…",
+        "Cookie giúp chúng tôi ghi nhớ các thiết lập ưu tiên của bạn và cải thiện chức năng của trang web.",
+        "Nếu bạn không muốn sử dụng Cookie, bạn có thể tắt tính năng này trong cài đặt trình duyệt. Tuy nhiên, xin lưu ý rằng việc tắt có thể ảnh hưởng đến một số chức năng của trang web."
+      ]
+    },
+    "note": "Nếu bạn có bất kỳ câu hỏi nào liên quan đến chính sách quyền riêng tư này hoặc muốn thực hiện các quyền liên quan đến dữ liệu cá nhân, vui lòng liên hệ với chúng tôi. Chúng tôi sẵn sàng hỗ trợ và giải đáp cho bạn."
+  }
+,"Accordion": {
+  "category": {
+    "account": "Thông tin tài khoản",
+    "wallet": "Ví của tôi",
+    "fairness": "Công bằng trò chơi",
+    "technical": "Vấn đề kỹ thuật",
+    "other": "Khác"
+  },
+  "items": {
+    "account": [
+      {
+        "question": "Làm gì nếu tôi quên mật khẩu?",
+        "answer": "Nếu bạn quên mật khẩu, vui lòng liên hệ với đội ngũ chăm sóc khách hàng chuyên biệt của chúng tôi. Chúng tôi sẽ hỗ trợ bạn đặt lại mật khẩu để có thể đăng nhập lại tài khoản."
+      },
+      {
+        "question": "Tôi có thể thay đổi tên người dùng không?",
+        "answer": "Hiện tại hệ thống không hỗ trợ thay đổi tên người dùng. Nếu bạn muốn đổi tên, chúng tôi khuyên bạn nên hủy tài khoản hiện tại và đăng ký tài khoản mới."
+      },
+      {
+        "question": "Làm sao để trở thành hội viên VIP?",
+        "answer": "Chỉ cần bắt đầu hành trình chơi game tại 99U, bạn sẽ tự động tích lũy cấp độ VIP. Bạn có thể kiểm tra trạng thái VIP và quyền lợi hiện tại tại 'Trung tâm cá nhân'."
+      }
+    ],
+    "wallet": [
+      {
+        "question": "Làm thế nào để nạp tiền?",
+        "answer": "1. Truy cập trang [Nạp tiền], sao chép địa chỉ ví được hiển thị hoặc quét mã QR để thanh toán.\n2. Nếu bạn sử dụng tiền pháp định, hãy chọn loại tiền bạn muốn nạp và làm theo hướng dẫn."
+      },
+      {
+        "question": "Làm thế nào để rút tiền?",
+        "answer": "Vui lòng truy cập trang [Rút tiền], nhập địa chỉ ví và số tiền bạn muốn rút, và lưu ý phí giao dịch liên quan."
+      },
+      {
+        "question": "Nạp và rút tiền mất bao lâu?",
+        "answer": "Mỗi giao dịch trên blockchain thường mất khoảng 3–5 phút để xác nhận. Tuy nhiên, thời gian có thể thay đổi tùy vào tình trạng mạng blockchain và mức phí bạn thiết lập.\nNếu có sự cố, vui lòng liên hệ đội ngũ hỗ trợ khách hàng để được giúp đỡ."
+      }
+    ],
+    "fairness": [
+      {
+        "question": "Trò chơi có minh bạch và công bằng không?",
+        "answer": "Hệ thống trò chơi của chúng tôi được xây dựng trên nền tảng Ethereum và TRON. Tất cả logic và dữ liệu quan trọng đều công khai và không thể bị chỉnh sửa."
+      }
+    ],
+    "technical": [
+      {
+        "question": "Nếu trò chơi bị giật lag hoặc lỗi thì nên làm gì?",
+        "answer": "Vui lòng thử làm mới trang trước, hầu hết các trường hợp sẽ khắc phục được ngay. Nếu vẫn còn vấn đề, hãy liên hệ với đội ngũ hỗ trợ kỹ thuật của chúng tôi."
+      }
+    ],
+    "other": [
+      {
+        "question": "Nếu có thêm thắc mắc thì sao?",
+        "answer": "Bạn có thể liên hệ với chúng tôi qua bộ phận chăm sóc khách hàng hoặc cộng đồng. Chúng tôi luôn sẵn sàng phục vụ bạn."
+      }
+    ]
+  }
+},
+"navbar": {
+  "home": "Trang chủ",
+  "slots": "Máy đánh bạc",
+  "bonus": "Khuyến mãi",
+  "tableGames": "Trò chơi bàn",
+  "blog": "Blog",
+  "about": "Về chúng tôi",
+  "register": "Đăng ký"
+},"carousel": {
+  "slides": [
+    {
+      "title": "Trò chơi hấp dẫn",
+      "description": "Trải nghiệm ngay các trò chơi slot và bàn cược kịch tính nhất, từ baccarat cổ điển đến slot đầy màu sắc, đắm chìm trong thế giới giải trí với cơ hội trúng thưởng lớn!",
+      "image": "/images/ac564398d6bb2a2fcbb41e30c402a0b8e8a1c0f4.webp"
+    },
+    {
+      "title": "Ưu đãi độc quyền",
+      "description": "Tham gia chương trình thưởng của chúng tôi để nhận thưởng riêng, khuyến mãi giới hạn và ưu đãi thành viên, giúp mỗi lần đặt cược đều thêm giá trị và bất ngờ!",
+      "image": "/images/69956bdc1fe156ff2a9c1f2dc008b839dd1055f7.webp"
+    },
+    {
+      "title": "An toàn đáng tin cậy",
+      "description": "Chúng tôi cung cấp mã hóa cao cấp, giao dịch nhanh chóng và hỗ trợ khách hàng 24/7, đảm bảo môi trường giải trí an toàn và ổn định cho bạn.",
+      "image": "/images/39028a5186a71322c51a772cf6dd56907a72f26e.webp"
+    }
+  ]
+},"marquee": {
+  "title": "Ưu Đãi Casino",
+  "description": "Khám phá các ưu đãi mới nhất tại sòng bạc, bao gồm hoàn tiền lần nạp đầu, rút thăm trúng thưởng miễn phí, giải đấu giới hạn thời gian và đặc quyền dành riêng cho hội viên. Mỗi ngày đều có điều bất ngờ mới—tham gia ngay để nhận ưu đãi hấp dẫn!"
+},
+"hotArticles": "Bài viết nổi bật",
+"updatedAt": "Cập nhật gần nhất"
+,"tab": {
+  "Slot Machine": "Máy đánh bạc",
+  "poker": "Bài Poker",
+  "21": "21 điểm",
+  "Roulette": "Roulette",
+  "casino": "Baccarat"
+}
+,"Casino": {
+  "title": "Cờ bạc có trách nhiệm và bảo vệ trẻ vị thành niên",
+  "meta": {
+    "title": "Cờ bạc có trách nhiệm",
+    "description": "Chúng tôi cam kết thúc đẩy hành vi chơi cờ bạc lành mạnh và ngăn trẻ vị thành niên tham gia."
+  },
+  "intro": "Tại 99U Casino, chúng tôi cam kết thúc đẩy giải trí có trách nhiệm. Cờ bạc trực tuyến nên được xem là một hình thức giải trí chứ không phải là cách để kiếm tiền hoặc giải quyết vấn đề tài chính.",
+  "section1": {
+    "title": "Giữ tỉnh táo và tận hưởng trò chơi",
+    "intro": "Chúng tôi khuyến khích tất cả người chơi ghi nhớ các nguyên tắc sau trước khi chơi:",
+    "list": [
+      "Cờ bạc chỉ để giải trí. Không nên xem nó là công cụ làm giàu hoặc giải quyết nợ nần.",
+      "Thường xuyên xem xét thời gian và số tiền bạn chi tiêu để thiết lập thói quen chơi game tự giác.",
+      "Nếu bạn cảm thấy mất kiểm soát, hãy tạm dừng và tìm kiếm sự trợ giúp."
+    ]
+  },
+  "section2": {
+    "title": "Nghiêm cấm người dưới tuổi vị thành niên",
+    "intro": "99U Casino chỉ chấp nhận người dùng từ 18 tuổi trở lên. Chúng tôi áp dụng các biện pháp hợp lý để ngăn trẻ vị thành niên truy cập nền tảng:",
+    "list": [
+      "Thực hiện xác minh độ tuổi và kiểm tra danh tính",
+      "Chúng tôi có quyền yêu cầu giấy tờ tùy thân hợp lệ",
+      "Nếu phát hiện người dùng chưa đủ tuổi, chúng tôi sẽ chặn truy cập ngay lập tức"
+    ]
+  },
+  "section3": {
+    "title": "Trách nhiệm chung của phụ huynh",
+    "p1": "Chúng tôi hiểu rằng trong thời đại số, rất khó để hoàn toàn ngăn trẻ vị thành niên tiếp cận nội dung cờ bạc. Vì vậy, chúng tôi kêu gọi phụ huynh cùng tham gia để giúp trẻ tránh xa các trang web không phù hợp.",
+    "p2": "Chúng tôi khuyên phụ huynh nên sử dụng phần mềm kiểm soát của cha mẹ để ngăn truy cập:",
+    "linkText": "Trang chính thức của Cyber Patrol"
+  },
+  "conclusion": "99U Casino đề cao sức khỏe và sự an toàn của mọi người chơi. Nếu bạn hoặc người thân có vấn đề với cờ bạc, hãy mạnh dạn tìm kiếm sự giúp đỡ. Chúng tôi hỗ trợ bạn đưa ra lựa chọn sáng suốt và tham gia một cách lành mạnh."
+}
+,"slotSectionSEO": {
+  "meta": {
+    "title": "Trò chơi slot trực tuyến phổ biến nhất | 99U Casino",
+    "description": "Trải nghiệm trò chơi slot trực tuyến phổ biến tại 99U Casino. Hỗ trợ USDT, minh bạch và công bằng, chơi mọi lúc mọi nơi.",
+    "keywords": "slot game, casino USDT, cờ bạc trực tuyến, slot 99U, trò chơi blockchain"
+  }
+},
+"site": {
+  "name": "99U Casino"
+},"bonusSEO": {
+  "meta": {
+    "title": "Khuyến mãi Casino Trực Tuyến | 99U Casino",
+    "description": "Tham gia các chương trình khuyến mãi mới nhất tại 99U Casino! Ưu đãi chào mừng, thưởng giới thiệu và quay thưởng miễn phí đang chờ bạn!",
+    "keywords": "khuyến mãi casino, tiền thưởng đăng ký, sự kiện trực tuyến, ưu đãi 99U, quay thưởng miễn phí, khuyến mãi casino"
+  }
+},"99uSEO": {
+  "meta": {
+    "title": "99U Sòng bạc trực tuyến | Trải nghiệm giải trí cá cược hàng đầu",
+    "description": "99U cung cấp nhiều trò chơi cá cược trực tuyến như máy đánh bạc, baccarat trực tiếp, cá cược thể thao và các chương trình khuyến mãi hấp dẫn. Hỗ trợ thanh toán bằng USDT, an toàn và tiện lợi.",
+    "keywords": "99U casino, cá cược trực tuyến, baccarat trực tiếp, máy đánh bạc, khuyến mãi casino, thanh toán USDT"
+  }
+},"AccordionBonus": {
+  "title": "Câu hỏi thường gặp về khuyến mãi sòng bạc tiền mã hóa 99U",
+  "meta": {
+    "title": "Khuyến mãi trực tuyến của 99U",
+    "description": "Tìm hiểu thêm về các ưu đãi và yêu cầu doanh thu của 99U."
+  },
+  "items": {
+    "account": {
+      "howToQualify": {
+        "question": "Làm thế nào để biết tôi đủ điều kiện nhận khuyến mãi nào?",
+        "answer": "Khi trở thành hội viên hợp lệ của 99U, bạn sẽ tự động được hưởng phần lớn khuyến mãi. Với các chương trình đặc biệt như thưởng nạp đầu tiên hay sự kiện riêng, vui lòng đọc kỹ điều khoản trước khi tham gia và tham khảo thông tin từ thông báo chính thức hoặc bộ phận hỗ trợ."
+      },
+      "doubleClaim": {
+        "question": "Tôi đã nhận thưởng nạp đầu tiên 100%, có thể nhận thêm khuyến mãi hoặc hoàn tiền khác không?",
+        "answer": "Hầu hết các chương trình khuyến mãi có thể đồng thời áp dụng nếu đủ điều kiện. Nếu có giới hạn hoặc xung đột, vui lòng tham khảo thông báo chính thức hoặc hỏi hỗ trợ."
+      },
+      "validBet": {
+        "question": "Thế nào là cược hợp lệ?",
+        "answer": "“Cược hợp lệ” là số tiền cược thực sau khi loại trừ cược bảo hiểm, không hợp lệ hoặc đã bị hệ thống hủy. Nếu phát hiện hành vi gian lận, hệ thống có thể không tính cược đó và giữ quyền xử lý."
+      },
+      "rebateTime": {
+        "question": "Khi nào tôi sẽ nhận được hoàn tiền hoặc hoa hồng đại lý?",
+        "answer": "Trong điều kiện bình thường, hoàn tiền và hoa hồng sẽ được hệ thống tự động phát vào khoảng 00:00–02:00 (UTC+8) ngày hôm sau. Nếu có sự kiện hoặc bảo trì, thời gian có thể chậm trễ, vui lòng kiểm tra thông báo hoặc liên hệ hỗ trợ."
+      },
+      "earlyWithdraw": {
+        "question": "Nếu tôi rút tiền sớm, có ảnh hưởng đến khuyến mãi hoặc tiền thưởng không?",
+        "answer": "Phần lớn khuyến mãi yêu cầu hoàn thành mức cược nhất định trước khi rút thưởng. Nếu bạn rút tiền sớm, có thể bị mất quyền tham gia và phần tiền thưởng còn lại. Hãy chắc chắn rằng bạn đã hoàn thành điều kiện trước khi rút tiền."
+      }
+    }
+  }
+},
+ "Bonus": {
+    "hero": {
+      "title1": "99U Tiền điện tử",
+      "title2": "Khuyến mãi Casino",
+      "banner": {
+        "title1": "Ưu đãi nóng 99U",
+        "title2": "Tham gia ngay, nhận nhiều phần thưởng",
+        "desc": "Từ tiền cứu trợ hàng ngày, vòng quay may mắn đến tiền thưởng gửi lần đầu – mỗi ván chơi đều đầy kịch tính. Người chơi mới và cũ đều có phần thưởng riêng. Đừng bỏ lỡ – bắt đầu ngay và nhận phần thưởng của bạn!",
+        "cta": "Nhận ưu đãi"
+      }
+    },
+    "cards": {
+      "sectionTitle": "Khuyến mãi Casino tiền điện tử",
+      "card1": {
+        "title": "Thành viên mới nhận 100% thưởng nạp đầu, tối đa 1000U",
+        "desc": "Dành riêng cho lần nạp đầu tiên: nhận ngay tiền thưởng lên đến 1,000U! Sau khi đạt yêu cầu cược, bạn có thể rút – tận hưởng ưu đãi từ lúc bắt đầu."
+      },
+      "card2": {
+        "title": "Hoàn trả lên tới 1.2% toàn sảnh",
+        "desc": "Hoàn trả hàng ngày, không cần đăng ký: hệ thống tự động tính và phát hoàn trả dựa trên cược hợp lệ ngày hôm trước, tối đa 1.2%. Có thể dùng ngay sau khi nhận."
+      },
+      "card3": {
+        "title": "Chia sẻ liên kết – nhận hoa hồng lên tới 0.2%",
+        "desc": "Mời bạn bè qua liên kết riêng. Khi họ đăng ký và đặt cược, bạn sẽ nhận hoàn trả bổ sung vào ngày hôm sau – tối đa 0.2%. Cả người giới thiệu và người được giới thiệu đều được hưởng các ưu đãi khác của nền tảng."
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+  
+}

@@ -1,0 +1,284 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@font-face {
+  font-family: 'DF-01';
+  src: url('/fonts/DF-01.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "ResourceHanRoundedCN-Heavy";
+  src: url("/fonts/ResourceHanRoundedCN-Heavy.woff2") format("woff2"),
+       url("/fonts/ResourceHanRoundedCN-Heavy.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+ 
+section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 9999999;
+}
+:root{
+  /* 購買按鈕 */
+  --color-buy-dark:#2c81db;
+    /* 卡片 */
+    --color-card-1:#ef4023;
+      --color-card-2:#2382ef;
+}
+section{
+  z-index: 20;
+}
+.blog-content h2{
+   margin-top: 30px ;
+   font-size: 26px;
+color: #0f0f0f;
+
+}
+.blog-content h3{
+   margin-top: 30px ;
+   font-size: 24px;
+color: #0f0f0f;
+
+}
+.blog-content strong{
+   margin-top: 10px ;
+   font-size: 16px;
+color: #181818;
+
+}
+.blog-content p , ol li,figcaption,ul li{
+   margin-top: 10px ;
+   font-size: 14px;
+   color: #202020;
+   
+
+}
+#article-main h1 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  color:#ffffff;
+}
+#article-main h2 {
+  margin-top: 20px;
+  font-size: 22px;
+  color:#ffffff;
+}
+#article-main ul {
+  margin-top: 40px;
+
+}
+#article-main ul li{
+  font-size: 16px;
+
+}
+#article-main h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  color:#ffffff;
+}
+#article-main p {
+  margin-top: 2px;
+  font-size: 14px;
+  color:#d5d5d5;
+}
+#article-main img {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.puk-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  height: 360px;
+  perspective: 1000px;
+}
+
+.puk-card p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.puk-card-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  animation: floating 3s infinite ease-in-out;
+}
+
+#card-1 .card-wrapper {
+  animation-delay: 0;
+}
+
+#card-2 .card-wrapper {
+  animation-delay: 0.2s;
+}
+
+#card-3 .card-wrapper {
+  animation-delay: 0.4s;
+}
+
+#card-4 .card-wrapper {
+  animation-delay: 0.6s;
+}
+
+.puk-flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.puk-flip-card-front,
+.puk-flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 0.8em;
+  overflow: hidden;
+}
+
+.puk-flip-card-back {
+  padding: 1em;
+  background-color: #fff;
+  transform: rotateY(180deg);
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, -60%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+:root{
+  /* 購買按鈕 */
+  --color-buy-dark:#2c81db;
+    /* 卡片 */
+    --color-card-1:#ef4023;
+      --color-card-2:#2382ef;
+}
+.product_info .transition-transform{
+  display: none !important;
+ 
+}
+.bg-content1{
+  background: transparent !important;
+}
+.shadow-medium {
+    box-shadow: none !important;
+}
+.Logo-section span{
+  color: white !important;
+}
+/* 按鈕 */
+.bg-buy-dark{
+  background-color: var(--color-buy-dark);
+}
+/* 卡片 */
+.bg-card-1{
+   background-color: var(--color-card-1);
+}
+.bg-card-2{
+   background-color: var(--color-card-2);
+}
+.puk-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  height: 360px;
+  perspective: 1000px;
+}
+
+.puk-card-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  animation: floating 3s infinite ease-in-out;
+}
+
+.puk-flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+/* 使用 Tailwind 的 group-hover:rotate-y-180 觸發 */
+.group:hover .puk-flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.puk-flip-card-front,
+.puk-flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 0.8em;
+  overflow: hidden;
+}
+
+.puk-flip-card-front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.puk-flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Additional styles */
+/* @import './additional-styles/range-slider.css';
+@import './additional-styles/theme.css';
+@import './additional-styles/toggle-switch.css';
+@import './additional-styles/utility-patterns.css'; */
+/* *{ outline: none !important;
+      box-shadow:none !important;}
+      .group[data-selected=true] .group-data-\[selected\=true\]\:text-default-foreground {
+        color: white !important;
+      } */
+
+/* .navlink:hover{
+  background: rgba(255,255,255,.5);
+} */
+.image-swiper-button-next{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+}
+.inset-00{
+  background-color: orangered;
+}
+.swiper-slide-thumb-active{
+  border: solid 1.4px rgb(62, 62, 62) !important;
+  padding: 4px;
+  overflow: hidden;
+
+}
+

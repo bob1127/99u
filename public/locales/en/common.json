@@ -1,0 +1,739 @@
+{
+  "sectionCardItem": {
+    "title": "Welcome to 99U Casino",
+    "description": "Looking for a fun, safe, and fair online USDT casino? Try 99U Casino! Here are some reasons why you should join us:",
+    "items": [
+      {
+        "title": "Anonymous & Fast Access, No Personal Info Needed",
+        "description": "No ID submission required\nJust connect your crypto wallet and start playing"
+      },
+      {
+        "title": "Fast Deposits & Withdrawals",
+        "description": "Supports USDT, BTC, ETH — instant deposits and withdrawals completed within 30 seconds"
+      },
+      {
+        "title": "Accessible Worldwide",
+        "description": "No regional restrictions, no need for banks or third-party approval — play anytime, anywhere"
+      },
+      {
+        "title": "24/7 Customer Support",
+        "description": "Our dedicated support team is available 24/7 to assist you"
+      },
+      {
+        "title": "Easy Payments",
+        "description": "Make secure and reliable deposits and withdrawals through multiple methods"
+      },
+      {
+        "title": "Trusted & Licensed Operator",
+        "description": "We are a licensed and regulated crypto online casino you can trust"
+      }
+    ]
+  },
+  "sectionBlog": {
+    "title": "New User First Deposit Bonus 100% Up to 1000 USDT",
+    "description": "Join 99U Casino — supporting multiple blockchains and fiat currencies with global accessibility. Through the transparency and immutability of blockchain technology, we provide the fairest gaming experience for users worldwide.",
+    "register": "Register Now"
+  },
+  "sectionGrid": {
+  "title": "The Safest Online USDT Casino",
+  "description": "99U Casino brings you cutting-edge blockchain technology and a rich variety of casino games, delivering the most futuristic online gambling platform.",
+  "items": [
+    {
+      "title": "Multi-Currency Deposits and Withdrawals",
+      "description": "Global players can easily deposit and withdraw—play without borders!",
+      "image": "/images/grid/spectator-large-CEvVmYmT.webp"
+    },
+    {
+      "title": "Blockchain-Based Games",
+      "description": "Fair and verifiable—experience true decentralization",
+      "image": "/images/grid/useful-tools-smart-betting-large-tah47nxL.webp"
+    },
+    {
+      "title": "VIP Tier System",
+      "description": "Enjoy exclusive privileges and increasingly generous rewards!",
+      "image": "/images/grid/spectator-large-CEvVmYmT.webp"
+    },
+    {
+      "title": "Thrilling Game Selection",
+      "description": "A massive variety of exciting games awaits your challenge",
+      "image": "/images/grid/spectator-large-CEvVmYmT.webp"
+    },
+    {
+      "title": "Daily Earnings for All Agents",
+      "description": "Join with zero threshold, get paid daily—earn easily while you relax",
+      "image": "/images/grid/spectator-large-CEvVmYmT.webp"
+    }
+  ]
+}
+,
+  "hero": {
+    "title1": "The Most Rewarding",
+    "title2": "USDT Crypto Online Casino",
+    "title3": "Casino",
+    "bonusTitle": "100% First Deposit Bonus for New Users",
+    "bonusDesc": "Kickstart your gaming journey with 99U promotions!",
+    "register": "Register Now"
+  },
+ "SoltMachineHero": {
+  "title": "The Most Popular Online Slot Games",
+  "description": "Why play online slot games at 99U"
+}
+,
+"slotTutorial": {
+  "title": "Slot Features and Tutorial",
+  "cards": [
+    {
+      "title": "Safety First, Play with Peace of Mind!",
+      "description": "We use internationally certified RNG to ensure every win is real and fair. Licensed operations, risk control, instant support, and fast transactions let you play happily and win safely!",
+      "image": "/images/solt-machine/card-img01.png"
+    },
+    {
+      "title": "Real Testimonials, Highly Rated!",
+      "description": "Every player's jackpot moment is shared in the reviews. From first spin wins to massive combos, each story is real, building your confidence before betting!",
+      "image": "/images/solt-machine/card-img04.png"
+    },
+    {
+      "title": "Fair & Transparent, Fast Withdrawals!",
+      "description": "Our platform is licensed and certified by third-party institutions. Fast withdrawals, 24/7 support—safe for mobile and desktop users anytime!",
+      "image": "/images/solt-machine/card-img02.png"
+    },
+    {
+      "title": "Top-Pick Games Just for You!",
+      "description": "With over 100 authorized games, from classic 777 to buy-in slots, you'll find your lucky strike here!",
+      "image": "/images/solt-machine/card-img03.png"
+    }
+  ]
+},
+"slotSection": {
+  "title": "About Slot Games",
+  "subtitle": "Instant play, no download needed",
+  "tabs": {
+    "slot": "Slot Machine",
+    "poker": "Poker",
+    "twentyone": "Blackjack (21)",
+    "roulette": "Roulette"
+  }
+},
+"blogCardGrid": {
+  "loading": "Loading...",
+  "noPosts": "No matching posts found.",
+  "noExcerpt": "This post has no excerpt.",
+  "readMore": "Read more",
+  "goNow": "Go now"
+},
+ "footerSection": {
+    "desc": "99Ubit is a crypto gaming platform built for entertainment lovers. It supports multiple chains and tokens, ensures privacy, security, and fairness, and offers a variety of games and exclusive rewards for global users to play freely.",
+    "title1": "Popular Games",
+    "game": {
+      "slot": "Slot Machine",
+      "baccarat": "Live Baccarat",
+      "sports": "Sports Events",
+      "fish": "Fishing Game",
+      "poker": "Poker Games"
+    },
+    "title2": "Social Channels",
+    "title3": "More Info",
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "faq": "FAQ",
+    "responsible": "Responsible Gaming",
+    "contact": "Contact Email"
+  },
+   "bonus": {
+    "hero": {
+      "title": "Online Game Bonus Promotions",
+      "description": "Natural8, the world's fastest-growing online poker site, offers deposit bonuses, free poker tournaments, leaderboards, giveaways, and more!",
+      "playNow": "Play Now"
+    },
+    "card1": {
+      "title": "Start with High Rewards for New Users",
+      "description": "At 99U Entertainment, new user bonuses come with perfect promotions, allowing you to start easily and earn rewards as you begin your online poker journey.",
+      "link": "See details on 99U Entertainment"
+    },
+    "card2": {
+      "title": "Start with High Rewards for New Users",
+      "description": "At 99U Entertainment, new user bonuses come with perfect promotions, allowing you to start easily and earn rewards as you begin your online poker journey.",
+      "link": "See details on 99U Entertainment"
+    },
+    "map": {
+      "title": "Play Anywhere Worldwide",
+      "description": "Lorem ipsum dolor sit amet consectetur"
+    },
+    "maispin": {
+      "title": "Maispin 50% First Deposit Bonus for New Members",
+      "description": "New members making their first deposit can receive a high bonus—up to 100U. After depositing and meeting the betting requirement, you can withdraw and enjoy rewards from the very beginning.",
+      "registerBtn": "Register Now"
+    }
+  },
+   "OnlineGame": {
+    "title": "Top Online Casino Games｜Play Anytime, Anywhere",
+    "description": "Experience poker, roulette, blackjack and more with daily missions and exciting bonuses. Start playing now!",
+    "hero": {
+      "title": "Popular Online Table Games"
+    },
+    "category": {
+      "title": "Popular Game Types",
+      "description": "From poker to roulette and blackjack, explore the most loved games by players worldwide"
+    },
+    "tag": {
+      "roulette": "Roulette",
+      "blackjack": "Blackjack",
+      "baccarat": "Poker",
+       "casino": "casino"
+    },
+    "tagDesc": {
+      "roulette": "A classic spinning wheel game — bet on red or black and test your luck!",
+      "blackjack": "A thrilling challenge to reach 21 without going bust. Strategy meets chance!",
+      "baccarat": "A widely loved poker game, ideal for players of all levels",
+        "casino": "From poker, roulette, baccarat to blackjack, enjoy our curated selection of classic games."
+
+    },
+    "tagContent": {
+      "roulette": "Roulette is a classic casino game where players bet on colors or numbers. The wheel spin decides your fate — luck and instincts rule!",
+      "blackjack": "Blackjack is a skill-based card game where players aim to reach 21 without busting. Face off against the dealer in a game of strategy.",
+      "baccarat": "Poker is a blend of strategy and probability. A timeless card game with rich variations and rewarding gameplay."
+    },
+    "article": {
+      "title": "Casino Game Spotlight",
+      "subtitle": "Learn strategies and gameplay for popular games to gain the edge"
+    }
+  },
+    "About": {
+    "meta": {
+      "title": "About 99U Casino",
+      "description": "Discover 99U Casino’s brand vision, story, and philosophy. Start your journey of wealth and entertainment now."
+    },
+    "hero": {
+      "title": "About 99U Casino"
+    },
+    "vision": {
+      "title": "Brand Vision",
+      "paragraph1": "99U Casino is committed to building an immersive entertainment world that integrates cryptocurrency. It allows players to explore between cash and crypto, offering a never-before-seen gambling experience.",
+      "paragraph2": "This is more than online gaming — it’s a strategic adventure. Every player is the protagonist of their story, writing a unique journey through every choice and decision."
+    },
+    "story": {
+      "title": "Brand Story",
+      "paragraph1": "99U Casino was born from boundless imagination and a passion for digital entertainment.",
+      "paragraph2": "We believe every game is more than winning or losing — it's about experiencing risk, opportunity, and wisdom. Every bet and strategy tells your gambling story.",
+      "paragraph3": "Whether you’re a newcomer or a seasoned player, 99U is your platform to realize strategies and pursue your wealth goals."
+    },
+    "mission": {
+      "title": "Our Philosophy",
+      "p1": "Exploring the limitless possibilities of wealth is our core value.",
+      "p2": "At 99U, betting is more than luck — it’s about vision, judgment, and strategic thinking.",
+      "p3": "We apply innovative crypto use, a robust gaming system, and transparent blockchain tech so players can enjoy and earn at the same time.",
+      "statement": "Our mission:",
+      "list": [
+        "Combine technology and entertainment for deeply immersive gameplay",
+        "Inspire strategic thinking in players, making each bet more meaningful",
+        "Let players experience the satisfaction and achievement of smart decisions"
+      ],
+      "p4": "We believe wealth isn’t just about the result, but the decisions and insights made along the way."
+    },
+    "cta": {
+      "title": "Join 99U and Begin Your Wealth Adventure",
+      "p1": "99U Casino is a next-gen platform bridging cash and crypto, crafting a unique world of ‘entertainment + wealth’ for every player.",
+      "p2": "Join now and embark on a journey where strategy and wisdom create endless opportunities!"
+    }
+  }
+,
+"About": {
+    "meta": {
+      "title": "About 99U Casino",
+      "description": "Discover 99U Casino’s brand vision, story, and philosophy. Start your journey of wealth and entertainment now."
+    },
+    "hero": {
+      "title": "About 99U Casino"
+    },
+    "vision": {
+      "title": "Brand Vision",
+      "paragraph1": "99U Casino is committed to building an immersive entertainment world that integrates cryptocurrency. It allows players to explore between cash and crypto, offering a never-before-seen gambling experience.",
+      "paragraph2": "This is more than online gaming — it’s a strategic adventure. Every player is the protagonist of their story, writing a unique journey through every choice and decision."
+    },
+    "story": {
+      "title": "Brand Story",
+      "paragraph1": "99U Casino was born from boundless imagination and a passion for digital entertainment.",
+      "paragraph2": "We believe every game is more than winning or losing — it's about experiencing risk, opportunity, and wisdom. Every bet and strategy tells your gambling story.",
+      "paragraph3": "Whether you’re a newcomer or a seasoned player, 99U is your platform to realize strategies and pursue your wealth goals."
+    },
+    "mission": {
+      "title": "Our Philosophy",
+      "p1": "Exploring the limitless possibilities of wealth is our core value.",
+      "p2": "At 99U, betting is more than luck — it’s about vision, judgment, and strategic thinking.",
+      "p3": "We apply innovative crypto use, a robust gaming system, and transparent blockchain tech so players can enjoy and earn at the same time.",
+      "statement": "Our mission:",
+      "list": [
+        "Combine technology and entertainment for deeply immersive gameplay",
+        "Inspire strategic thinking in players, making each bet more meaningful",
+        "Let players experience the satisfaction and achievement of smart decisions"
+      ],
+      "p4": "We believe wealth isn’t just about the result, but the decisions and insights made along the way."
+    },
+    "cta": {
+      "title": "Join 99U and Begin Your Wealth Adventure",
+      "p1": "99U Casino is a next-gen platform bridging cash and crypto, crafting a unique world of ‘entertainment + wealth’ for every player.",
+      "p2": "Join now and embark on a journey where strategy and wisdom create endless opportunities!"
+    }
+  },
+  
+  "Service": {
+    "meta": {
+      "title": "Terms of Service",
+      "description": "Welcome to our Terms of Service. Learn about how we collect and use your data."
+    },
+    "hero": {
+      "title": "Terms of Service"
+    },
+    "intro": "Welcome to our application (hereinafter referred to as 'the Service'). To protect your personal information and help you understand how we collect, use, disclose, and protect your data, please read the following terms carefully.",
+    "sections": {
+      "section1": {
+        "title": "1. By Using the Service, You Agree to the Following Policy",
+        "paragraph1": "By choosing to use this Service, you acknowledge and agree that we will collect and process your information in accordance with this policy."
+      },
+      "section2": {
+        "title": "2. Types of Data We Collect",
+        "paragraph1": "1. Personal Data",
+        "list1": [
+          "Name and email address",
+          "Device identifiers and IP address",
+          "Usage behavior and diagnostic data (e.g., browser type, operating system, usage time, etc.)"
+        ],
+        "paragraph2": "2. Usage Data",
+        "list2": [
+          "Pages visited and time spent",
+          "Access time and device information",
+          "Error reports and technical data"
+        ],
+        "paragraph3": "3. Third-Party Login Data",
+        "list3": [
+          "Name and email address",
+          "Public account information (e.g., contact list)"
+        ]
+      },
+      "section3": {
+        "title": "3. Purpose of Using Personal Data",
+        "list1": [
+          "To provide and maintain the quality of our services",
+          "To optimize user experience and improve functionality",
+          "To provide technical support and user assistance",
+          "To send system notifications and important updates"
+        ]
+      },
+      "section4": {
+        "title": "4. Principles of Information Disclosure",
+        "paragraph1": "We do not sell, trade, or transfer your personal data to third parties. However, we may disclose information in the following cases:",
+        "list1": [
+          "To comply with legal or governmental authority requirements",
+          "To protect the rights, property, and safety of ourselves or others",
+          "With your explicit consent in other situations"
+        ]
+      },
+      "section5": {
+        "title": "5. Data Security and Protection",
+        "list1": [
+          "All data is encrypted and securely stored",
+          "Protected by Cloudflare and firewall technologies",
+          "Access to servers is only allowed through VPN authentication",
+          "All servers and backups are securely encrypted and stored with offsite redundancy"
+        ]
+      },
+      "section6": {
+        "title": "6. Cookie Policy",
+        "paragraph1": "1. What Are Cookies?",
+        "paragraph2": "Cookies are small text files stored on your device to recognize you when you revisit our website.",
+        "paragraph3": "2. Purposes of Cookies",
+        "list1": [
+          "Preference settings",
+          "Maintaining login status",
+          "Tracking site traffic and sources"
+        ],
+        "paragraph4": "3. Types and Names of Cookies",
+        "table": {
+          "head": [
+            "Name",
+            "Function",
+            "Lifetime"
+          ],
+          "rows": [
+            [
+              "_fp",
+              "Stores browser fingerprint",
+              "Permanent"
+            ],
+            [
+              "_t",
+              "Timestamp of visit",
+              "Session"
+            ],
+            [
+              "_r",
+              "Referral URL tracking",
+              "Session"
+            ],
+            [
+              "_c",
+              "Affiliate marketing tag",
+              "Permanent"
+            ]
+          ]
+        },
+        "paragraph5": "Third-party cookies include:",
+        "list2": [
+          "Google Analytics (_ga, _gat, _gid)",
+          "Zendesk (__zlcmid)",
+          "Cloudflare (__cfuid)"
+        ],
+        "paragraph6": "4. Managing Cookies",
+        "paragraph7": "You may control or disable cookies via your browser settings."
+      },
+      "section7": {
+        "title": "7. Policy for Underage Users",
+        "paragraph1": "This service is not intended for users under the age of 18. If you are a minor, you must obtain consent from your parent or guardian before using the Service."
+      },
+      "section8": {
+        "title": "8. Changes to the Privacy Policy",
+        "paragraph1": "We reserve the right to update this policy at any time. Any changes will be posted on this page, and significant changes will be announced through the application."
+      },
+      "section9": {
+        "title": "9. International Data Transfers and Third-Party Sharing",
+        "paragraph1": "When legally necessary (e.g., customer support), we may share data with third parties, including:",
+        "list1": [
+          "Zendesk Inc.: For processing online chats and customer support emails (e.g., user name and email address)"
+        ]
+      },
+      "section10": {
+        "title": "10. Data Deletion and User Rights",
+        "paragraph1": "If you wish to delete your personal data, please contact us to submit a request. However, if certain data must be retained according to legal regulations, we may not be able to delete it immediately."
+      },
+      "section11": {
+        "title": "11. Data Breach Notification",
+        "paragraph1": "In the event of a personal data breach, we will notify users within the legal timeframe as required by GDPR or other applicable laws."
+      },
+      "section12": {
+        "title": "12. Issue Reporting and Support",
+        "paragraph1": "If you encounter any issues while using the Service, please provide the following information to help us address the problem quickly:",
+        "list1": [
+          "Your username",
+          "Time and description of the issue",
+          "Error screenshots (if any)",
+          "Game ID or table name (if applicable)"
+        ],
+        "paragraph2": "If you have any questions about these terms, please contact us through our customer support channels."
+      }
+    }
+  }
+,
+  "About": {
+  "hero": {
+    "title": "About 99U Casino"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "paragraph1": "99U Casino is dedicated to creating an entertainment world that combines cryptocurrency with immersive experiences, guiding players through a unique journey between cash and digital assets.",
+    "paragraph2": "This is more than just online gaming—it's an adventurous exploration of strategy and wealth. Here, every player is the protagonist of their own story, making choices that shape a one-of-a-kind path to fortune."
+  },
+  "story": {
+    "title": "Our Story",
+    "paragraph1": "99U Casino was born from a limitless imagination and passion for the digital entertainment world.",
+    "paragraph2": "We believe that every game is more than just a contest of wins and losses—it's a profound experience of risk, opportunity, and intelligence. On this platform, each bet and strategy builds a new chapter in your gaming journey.",
+    "paragraph3": "Whether you're a beginner or a seasoned expert, 99U is the perfect stage where strategy meets your financial goals."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "p1": "Exploring the infinite possibilities of wealth is at the heart of what we do.",
+    "p2": "At 99U, we believe betting is not just a game of luck, but a reflection of insight, judgment, and strategy.",
+    "p3": "Through innovative cryptocurrency integration, a powerful gaming system, and transparent blockchain technology, we empower players to enjoy entertainment while embracing a rewarding journey of financial achievement.",
+    "statement": "Our mission is to:",
+    "list": [
+      "Merge technology and entertainment to create a deeply immersive gaming experience",
+      "Inspire strategic thinking, making every bet more meaningful",
+      "Help players experience the fulfillment and achievement that comes from wise decisions and exploration"
+    ],
+    "p4": "We firmly believe that the value of wealth lies not only in the outcome, but in every decision and realization along the way."
+  },
+  "cta": {
+    "title": "Join 99U and Begin Your Wealth Adventure",
+    "p1": "99U Casino is a next-generation platform bridging cash and virtual assets, creating a unique world of entertainment and wealth for every player.",
+    "p2": "Join 99U now to embark on an exciting journey of strategy and intelligence—discover your unlimited potential!"
+  }
+}
+
+,"Policy": {
+    "title": "Privacy Policy",
+    "meta": {
+      "title": "Privacy Policy",
+      "description": "We value your personal data and privacy. Please read the full policy below."
+    },
+    "intro": "We place great importance on your personal data and privacy. In accordance with the Personal Data Protection Act and relevant regulations, we are committed to handling and protecting your information appropriately. Please read the following policy to understand how we collect, use, retain, and protect your data.",
+    "section1": {
+      "title": "1. Data Collection and Usage Purposes",
+      "list": [
+        "By using this website and participating in our games, you acknowledge and agree that we may collect and use your personal information within the necessary scope to provide a complete service experience.",
+        "The personal data we collect will be used solely for the following purposes:"
+      ],
+      "sublist": [
+        "Identity verification and account management",
+        "Assist you in participating in games and performing related actions",
+        "Provide game support and customer service",
+        "Send game updates, new features, events, and promotional offers that may interest you"
+      ],
+      "note": "If you do not wish to receive any promotional content, you may unsubscribe or notify us to stop such messages at any time."
+    },
+    "section2": {
+      "title": "2. Data Protection and Legal Compliance",
+      "list": [
+        "We are committed to protecting all collected personal data in accordance with the Personal Data Protection Act and best business practices, ensuring it is not accessed, used, or disclosed without authorization.",
+        "All data processing is limited to lawful, justified, and specific purposes, and your privacy is respected at all times."
+      ]
+    },
+    "section3": {
+      "title": "3. Third-Party Disclosure Policy",
+      "list": [
+        "We will not provide your personal information to any third party unless required by law or necessary to fulfill business operations.",
+        "However, we may disclose your data to partners, system providers, or service vendors in the following circumstances:"
+      ],
+      "sublist": [
+        "To maintain normal website operations",
+        "To execute game functions and maintain services",
+        "To provide customer support"
+      ],
+      "note": "These parties may only access your data within the scope required to perform their duties and must comply with this privacy policy's confidentiality terms."
+    },
+    "section4": {
+      "title": "4. Data Access and Retention",
+      "list": [
+        "We will retain your personal data to maintain your service relationship and account operations.",
+        "Unless required by law or for maintaining cooperative records, we will not retain or destroy any data without reason.",
+        "You have the right to request access, review, supplement, correction, or deletion of your personal data held by us. Please contact our support team if you wish to exercise these rights."
+      ]
+    },
+    "section5": {
+      "title": "5. Cookie Policy",
+      "list": [
+        "To enhance your website experience and service quality, we use cookies to collect browsing information such as device identifiers and visit history.",
+        "Cookies help us remember your preferences and improve website functionality.",
+        "If you do not wish to accept cookies, you may disable them in your browser settings. However, this may affect or limit certain website features."
+      ]
+    },
+    "note": "If you have any questions regarding this privacy policy or wish to exercise your rights related to personal data, please feel free to contact us. We will be happy to assist you."
+  },
+  "Accordion": {
+  "category": {
+    "account": "Account Information",
+    "wallet": "My Wallet",
+    "fairness": "Game Fairness",
+    "technical": "Technical Issues",
+    "other": "Others"
+  },
+  "items": {
+    "account": [
+      {
+        "question": "What should I do if I forget my password?",
+        "answer": "If you forget your password, please contact our dedicated customer support team. We will help you reset your password to ensure you can log in smoothly."
+      },
+      {
+        "question": "Can I change my username?",
+        "answer": "Currently, the system does not support changing usernames. If you wish to use a different name, we recommend deactivating your current account and registering a new one."
+      },
+      {
+        "question": "How do I become a VIP member?",
+        "answer": "Once you start your gaming journey on 99U, your VIP level will accumulate automatically. You can check your current VIP status and benefits at any time in the 'Personal Center'."
+      }
+    ],
+    "wallet": [
+      {
+        "question": "How do I top up?",
+        "answer": "1. Go to the [Top-up] page, copy the displayed wallet address or scan the QR code to complete the payment.\n2. If using fiat currency, please select the currency you want to top up and follow the instructions."
+      },
+      {
+        "question": "How do I withdraw?",
+        "answer": "Please go to the [Withdraw] page, enter your wallet address and the amount you wish to withdraw, and pay attention to the applicable fees."
+      },
+      {
+        "question": "How long does it take to top up or withdraw?",
+        "answer": "Each transaction on the blockchain usually takes 3–5 minutes to confirm. However, times may vary depending on network congestion and fee settings.\nIf you encounter any issues, feel free to contact our support team for assistance."
+      }
+    ],
+    "fairness": [
+      {
+        "question": "Are the games fair and transparent?",
+        "answer": "Our gaming system is built on Ethereum and TRON blockchains. All core logic and data are publicly transparent and tamper-proof."
+      }
+    ],
+    "technical": [
+      {
+        "question": "What should I do if the game lags or encounters issues?",
+        "answer": "Please try refreshing the page first; most issues can be resolved immediately. If problems persist, contact our technical support team for assistance."
+      }
+    ],
+    "other": [
+      {
+        "question": "What if I have more questions?",
+        "answer": "Feel free to contact us through customer support or our community. We’re here to help you."
+      }
+    ]
+  }
+},"navbar": {
+  "home": "Home",
+  "slots": "Slots",
+  "bonus": "Promotions",
+  "tableGames": "Table Games",
+  "blog": "Blog",
+  "about": "About Us",
+  "register": "Register"
+},"carousel": {
+  "slides": [
+    {
+      "title": "Exciting Games",
+      "description": "Dive into thrilling slot machines and table games. From classic baccarat to vibrant slots, enjoy immersive entertainment and the chance to win big!",
+      "image": "/images/ac564398d6bb2a2fcbb41e30c402a0b8e8a1c0f4.webp"
+    },
+    {
+      "title": "Exclusive Offers",
+      "description": "Join our reward programs and enjoy exclusive bonuses, limited-time promotions, and members-only perks that add extra value to every bet!",
+      "image": "/images/69956bdc1fe156ff2a9c1f2dc008b839dd1055f7.webp"
+    },
+    {
+      "title": "Trusted Security",
+      "description": "We offer top-level encryption, fast deposits and withdrawals, and 24/7 support to ensure a secure, stable, and reliable gaming experience.",
+      "image": "/images/39028a5186a71322c51a772cf6dd56907a72f26e.webp"
+    }
+  ]
+},
+"marquee": {
+  "title": "Casino Promotions",
+  "description": "Discover the latest casino promotions, including first deposit bonuses, free prize draws, time-limited tournaments, and exclusive member perks. New surprises await every day—join now to grab the best deals!"
+}
+,    "hotArticles": "Hot Articles",
+  "updatedAt": "Last Updated"
+
+,"tab": {
+  "Slot Machine": "Slot Machine",
+  "poker": "Poker",
+  "21": "Blackjack",
+  "Roulette": "Roulette",
+  "casino": "Baccarat"
+}
+,"Casino": {
+  "title": "Responsible Gambling and Protection of Minors",
+  "meta": {
+    "title": "Responsible Gambling",
+    "description": "We are committed to promoting healthy gambling behavior and preventing minors from participating."
+  },
+  "intro": "At 99U Casino, we are committed to promoting responsible entertainment. Online gambling should be viewed as a form of leisure, not a way to earn income or solve financial problems.",
+  "section1": {
+    "title": "Stay Rational and Enjoy the Game",
+    "intro": "We encourage all players to keep the following principles in mind before playing:",
+    "list": [
+      "Gambling should be for entertainment only. Do not treat it as a tool to get rich or resolve debt.",
+      "Regularly review the time and money you spend on the platform and establish self-discipline.",
+      "If you feel a loss of control over gambling, consider taking a break and seeking help."
+    ]
+  },
+  "section2": {
+    "title": "Minors Are Strictly Prohibited",
+    "intro": "99U Casino only accepts users aged 18 or above. We take all reasonable steps to prevent minors from accessing our platform, including:",
+    "list": [
+      "Implementing age verification and identity checks",
+      "Reserving the right to request valid identification from players",
+      "Immediately blocking access and accounts upon detection of underage users"
+    ]
+  },
+  "section3": {
+    "title": "Parental Responsibility",
+    "p1": "We understand that in the digital age, it is challenging to completely prevent minors from being exposed to gambling content. Therefore, we sincerely urge parents and guardians to actively participate in guiding children away from inappropriate websites.",
+    "p2": "We recommend parents use professional parental control software to restrict access to gambling platforms:",
+    "linkText": "Cyber Patrol Official Website"
+  },
+  "conclusion": "99U Casino values the health and safety of every player. If you or someone you know has concerns about gambling, please seek help. We support your wise decisions, rational play, and healthy entertainment."
+},"slotSectionSEO": {
+  "meta": {
+    "title": "Top Online Slot Games | 99U Casino",
+    "description": "Play the most popular online slot games at 99U Casino. USDT supported. Fair, transparent, and available anytime, anywhere.",
+    "keywords": "slot games, USDT casino, online gambling, 99U slots, blockchain games"
+  }
+},
+"site": {
+  "name": "99U Casino"
+}
+,"bonusSEO": {
+  "meta": {
+    "title": "Online Casino Promotions | 99U Casino",
+    "description": "Join the latest promotions at 99U Casino! Welcome bonuses, referral rewards, free draws – exciting prizes await you!",
+    "keywords": "casino promotions, welcome bonus, online events, 99U bonus, free draw, casino offers"
+  }
+},"99uSEO": {
+  "meta": {
+    "title": "99U Online Casino | Premium Online Gaming Experience",
+    "description": "99U Online Casino offers a wide range of games including slots, live baccarat, sports betting, and exclusive promotions. Supports USDT payments with secure and convenient service.",
+    "keywords": "99U casino, online gaming, live baccarat, slot games, casino promotions, USDT payment"
+  }
+},
+"AccordionBonus": {
+  "title": "99U Crypto Casino Promotions FAQ",
+  "meta": {
+    "title": "99U Online Promotions",
+    "description": "Learn more about 99U's bonus offers and wagering requirements."
+  },
+  "items": {
+    "account": {
+      "howToQualify": {
+        "question": "How do I know which promotions I am eligible for?",
+        "answer": "Once you become a valid 99U member, most promotions are automatically available to you. For special events like welcome bonuses or exclusive campaigns, please read the terms and wagering requirements in advance. Refer to official announcements or customer support for details."
+      },
+      "doubleClaim": {
+        "question": "I already claimed the 100% first deposit bonus. Can I also get other rewards or cashback?",
+        "answer": "Most promotions can be combined if all requirements are met. However, some events may have conflicts or specific restrictions. Please refer to the official announcements or contact support for clarification."
+      },
+      "validBet": {
+        "question": "What is considered valid betting?",
+        "answer": "“Valid bets” refer to actual wager amounts after excluding hedging, invalid, or canceled bets. Abusive methods such as hedging may be excluded from valid turnover and are subject to penalties."
+      },
+      "rebateTime": {
+        "question": "When will my rebate or affiliate commission be distributed?",
+        "answer": "Under normal circumstances, daily rebates and commissions are issued automatically between 00:00–02:00 (UTC+8) the following day. Delays may occur during holidays or maintenance. Please refer to official updates or support replies."
+      },
+      "earlyWithdraw": {
+        "question": "If I request a withdrawal early, will it affect my ongoing promotions or bonus?",
+        "answer": "Most promotions require you to meet specific wagering multipliers before bonus funds can be withdrawn. Withdrawing early may result in forfeiting promotion eligibility and remaining bonus. Ensure all conditions are fulfilled before withdrawing."
+      }
+    }
+  }
+},
+ "Bonus": {
+    "hero": {
+      "title1": "99U Crypto",
+      "title2": "Casino Promotions",
+      "banner": {
+        "title1": "99U Hot Deals",
+        "title2": "Join Now, Unlock Multiple Rewards",
+        "desc": "From daily rescue cash and lucky wheel to first-deposit surprise bonuses—every round is a thrill. New and existing players get tailored rewards. Don’t miss out—start now and claim your prizes!",
+        "cta": "Claim Offer"
+      }
+    },
+    "cards": {
+      "sectionTitle": "Crypto Casino Promotions",
+      "card1": {
+        "title": "New Member 100% First Deposit Bonus, up to 1000U",
+        "desc": "Exclusive for first-time deposits: grab a generous top-up bonus up to 1,000U! Once you meet the required wagering, you can withdraw—enjoy great perks from the very start."
+      },
+      "card2": {
+        "title": "Rebate up to 1.2% sitewide",
+        "desc": "Daily automatic rebates—no application needed. Based on the previous day’s valid wagers across all games, with rebates up to 1.2%. Use it immediately after receiving."
+      },
+      "card3": {
+        "title": "Affiliate Share: Earn up to 0.2% Commission",
+        "desc": "Invite friends via your unique link. When they register and place bets, you’ll automatically receive extra rebates the next day—up to 0.2%. Both referrers and referees can enjoy other platform offers simultaneously."
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+}
