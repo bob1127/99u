@@ -2449,6 +2449,11 @@
     hls.js "~1.5.8"
     mux-embed "~5.2.0"
 
+"@netlify/plugin-nextjs@^5.12.0":
+  version "5.12.0"
+  resolved "https://registry.npmjs.org/@netlify/plugin-nextjs/-/plugin-nextjs-5.12.0.tgz"
+  integrity sha512-SXQY/nCiSOSAZWNls/DQxrICldUR7PHSMUw2J2/ZejH1dk12Vwd3+SzSihHrRW9PNcErZkC2g3seM7bWZlvBRg==
+
 "@next/env@^14.2.3":
   version "14.2.4"
   resolved "https://registry.npmjs.org/@next/env/-/env-14.2.4.tgz"
