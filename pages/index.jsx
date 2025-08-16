@@ -17,7 +17,6 @@ import { ShinyButton } from "../components/magicui/shiny-button";
 import { useRouter } from "next/router";
 
 import { cn } from "../src/lib/utils";
-import { Marquee } from "@/components/magicui/marquee";
 import BlogCarousel from "../components/EmblaCarousel01/index.jsx";
 import { motion } from "framer-motion";
 import { useGSAP } from "@gsap/react";
