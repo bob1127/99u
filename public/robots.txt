@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.99ubit.bet
+
+# Sitemaps
+Sitemap: https://www.99ubit.bet/sitemap.xml
