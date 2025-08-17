@@ -71,7 +71,7 @@ export default function CasinoPage() {
             <a
               href="https://www.cyberpatrol.com/"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener"
               className="text-blue-600 underline"
             >
               {t("Casino.section3.linkText")}

@@ -22,7 +22,7 @@ const Card = forwardRef(
             {/* 正面：自訂圖片 + 可點擊 */}
             <div className="puk-flip-card-back">
               {linkUrl ? (
-                <Link href={linkUrl} target="_blank" rel="noopener noreferrer">
+                <Link href={linkUrl} target="_blank" rel="nofollow noopener">
                   <Image
                     src={frontImageSrc}
                     width={500}
