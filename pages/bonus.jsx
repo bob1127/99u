@@ -190,7 +190,10 @@ export default function BonusFAQPage() {
                 <p className="text-[15px] text-white mb-6 w-full sm:w-3/4 leading-relaxed">
                   {hero.banner.desc}
                 </p>
-                <Link href="https://www.99ubit.com/#/?superid=eric60">
+                <Link
+                  rel="nofollow noopener"
+                  href="https://www.99ubit.com/#/?superid=eric60"
+                >
                   {" "}
                   <ShinyButton>
                     {" "}

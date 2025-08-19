@@ -14,14 +14,17 @@ const Hero = () => {
   return (
     <div className="relative py-6 md:py-20 sm:py-[200px] max-w-[1320px] mx-auto w-[95%] xl:w-[65%] 2xl:w-[65%] z-20 flex flex-col-reverse md:flex-row items-center justify-between h-full px-4 md:px-10">
       {/* 左側：文字區塊 */}
-      <div className="z-50 flex flex-col items-start w-full md:w-1/2 gap-6 text-left">
-        <div className="text-white font-bold text-2xl sm:text-3xl md:text-4xl">
+      <div className="z-50 flex flex-col items-center sm:items-start w-full md:w-1/2 gap-6 text-left">
+        <div className="text-white text-center  sm:text-left font-bold text-2xl sm:text-3xl md:text-4xl">
           {t("hero.title1")} <br />
           {t("hero.title2")}
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tighter text-white">
-          99Ｕ <AuroraText>{t("hero.title3")}</AuroraText>
+          99Ｕ
+          <span className=" font-extrabold bg-gradient-to-r from-[#8B5CF6] via-[#E879F9] via-[#C084FC] to-[#6366F1] bg-clip-text text-transparent">
+            {t("hero.title3")}
+          </span>
         </h1>
 
         <div className="info rounded-[35px] bg-white/20 backdrop-blur-md border border-white/20 shadow-xl p-6 sm:p-10 text-white w-full max-w-[500px]">
@@ -36,6 +39,7 @@ const Hero = () => {
             <Link
               href="https://www.99ubit.com/#/?superid=eric60"
               className=" mx-auto"
+              rel="nofollow noopener"
             >
               {" "}
               <ShinyButton>

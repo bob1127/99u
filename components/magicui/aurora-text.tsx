@@ -13,31 +13,29 @@ export const AuroraText = memo(
   ({
     children,
     className = "",
-    colors = ["#FF0080", "#7928CA", "#0070F3", "#38bdf8"],
+    colors = [""], // 紫色系
     speed = 1,
   }: AuroraTextProps) => {
-    const gradientStyle = {
+    const gradientStyle: React.CSSProperties = {
       backgroundImage: `linear-gradient(135deg, ${colors.join(", ")}, ${
         colors[0]
       })`,
+      backgroundSize: "200% auto", // 保證有漸層移動的空間
+      backgroundClip: "text",
       WebkitBackgroundClip: "text",
-      WebkitTextFillColor: "transparent",
-      animationDuration: `${10 / speed}s`,
+      color: "transparent",
+      animation: `auroraMove ${10 / speed}s linear infinite`, // 自訂動畫
     };
 
     return (
       <span className={`relative inline-block ${className}`}>
         <span className="sr-only">{children}</span>
-        <span
-          className="relative animate-aurora bg-[length:200%_auto] bg-clip-text text-transparent"
-          style={gradientStyle}
-          aria-hidden="true"
-        >
+        <span style={gradientStyle} aria-hidden="true">
           {children}
         </span>
       </span>
     );
-  },
+  }
 );
 
 AuroraText.displayName = "AuroraText";

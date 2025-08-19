@@ -171,7 +171,10 @@ export default function Navbar() {
             </AnimatePresence>
           </div>
 
-          <Link href="https://www.99ubit.com/#/?superid=eric60">
+          <Link
+            rel="nofollow noopener"
+            href="https://www.99ubit.com/#/?superid=eric60"
+          >
             {" "}
             <FaUserCircle
               className="text-white hover:text-pink-400 cursor-pointer"
@@ -185,6 +188,7 @@ export default function Navbar() {
           </span>
 
           <Link
+            rel="nofollow noopener"
             href="https://www.99ubit.com/#/?superid=eric60"
             className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-4 py-1.5 rounded-full text-sm font-medium hover:opacity-90"
           >

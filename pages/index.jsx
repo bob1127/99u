@@ -398,43 +398,70 @@ export default function HomePage({ locale }) {
           <Hero />
         </div>
         <section className="section-card-item z-20 py-10 flex flex-col items-center justify-center">
-          <div className="title flex flex-col justify-center items-center max-w-[1920px] w-[85%]  mx-auto">
-            <h2 className="text-white text-[7vmin]">
+          {/* 標題區 */}
+          <div className="title flex flex-col justify-center items-center max-w-[1920px] w-[85%] mx-auto">
+            <h2 className="text-white text-[7vmin] text-center">
               {t("sectionCardItem.title")}
             </h2>
             <p className="text-center text-md text-white w-full sm:w-1/2">
               {t("sectionCardItem.description")}
             </p>
           </div>
-          <div className="grid mt-20 px-4 sm:grid-cols-2 grid-cols-2 xl:grid-cols-3 justify-items-center max-w-[1520px] w-[100%] md:w-[85%]   2xl:w-[65%] mx-auto">
+
+          {/* 卡片區 */}
+          <div
+            className="
+      grid mt-12 gap-6 sm:gap-8 xl:gap-10 px-4
+      grid-cols-2 xl:grid-cols-3
+      justify-items-center
+      max-w-[1520px] w-full md:w-[85%] 2xl:w-[65%] mx-auto
+    "
+          >
             {t("sectionCardItem.items", { returnObjects: true }).map(
               (item, index) => (
-                <div
+                <article
                   key={index}
-                  className="card bg-white relative group w-[98%] xl:w-[370px] mt-20 sm:mt-[150px] xl:mt-[100px] h-[62vmin] sm:h-[430px] xl:h-[400px] rounded-xl"
+                  className="
+          group w-full max-w-[360px]
+          bg-white rounded-xl shadow-[0_10px_30px_rgba(0,0,0,.15)]
+          overflow-hidden flex flex-col transition-transform duration-300
+          hover:-translate-y-1
+        "
                 >
-                  <div className="top h-1/3 overflow-hidden">
+                  {/* 圖片（固定比例，避免撐壞版） */}
+                  <div className="relative aspect-[4/4]">
                     <Image
                       src={cardImages[index % cardImages.length].src}
                       alt={cardImages[index % cardImages.length].alt}
                       placeholder="empty"
                       loading="lazy"
-                      width={500}
-                      height={300}
-                      className="w-[90%] absolute scale-95 group-hover:scale-100 transition duration-500 left-1/2 -translate-x-1/2 top-[-26%] sm:top-[-10%] md:top-[-25%] xl:top-[-20%] mx-auto rounded-xl border-3 border-white"
+                      fill
+                      sizes="(max-width: 640px) 92vw, (max-width: 1280px) 45vw, 360px"
+                      className="object-cover w-full h-full"
                     />
                   </div>
 
-                  {/* ✅ 手機左對齊、平板以上置中；加 padding 與較舒適的行高 */}
-                  <div className="bottom px-4 sm:px-3 absolute top-[36%] sm:bottom-10 left-1/2 -translate-x-1/2 w-full sm:w-2/3 h-1/2 mt-2 flex flex-col justify-end items-center sm:items-center">
-                    <h3 className="text-[15px] text-center md:text-xl font-bold group-hover:text-[#e84fdc]  sm:text-center">
+                  {/* 文字 */}
+                  <div className="p-4 sm:p-5 flex flex-col gap-3 sm:gap-4">
+                    <h3
+                      className="
+              text-[15px] md:text-xl font-bold
+              text-left sm:text-center
+              transition-colors group-hover:text-[#e84fdc]
+            "
+                    >
                       {item.title}
                     </h3>
-                    <p className="block text-[13px] sm:text-sm font-normal text-black mt-3 sm:mt-6 text-left sm:text-center leading-relaxed break-words whitespace-pre-line">
+                    <p
+                      className="
+              text-[13px] sm:text-sm text-black leading-relaxed
+              text-left sm:text-center break-words whitespace-pre-line
+            "
+                    >
                       {item.description}
                     </p>
                   </div>
-                </div>
+                </article>
               )
             )}
           </div>
@@ -656,7 +683,10 @@ export default function HomePage({ locale }) {
             <p className="text-white tetx-md mb-8 text-center max-w-[600px]">
               {sectionBlog.description}
             </p>
-            <Link href="https://www.99ubit.com/#/?superid=eric60">
+            <Link
+              href="https://www.99ubit.com/#/?superid=eric60"
+              rel="nofollow noopener"
+            >
               {" "}
               <ShinyButton>
                 <span className="text-white">{sectionBlog.register}</span>
