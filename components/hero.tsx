@@ -20,20 +20,12 @@ const Hero = () => {
           {t("hero.title2")}
         </div>
         <div className="flex ">
-          <Image
-            src="/images/logo/99u_logo.webp"
-            alt="logo"
-            placeholder="empty"
-            loading="lazy"
-            width={300}
-            height={140}
-            className=" max-w-[150px] sm:max-w-[220px]"
-          ></Image>{" "}
           <h1
             className="text-5xl sm:text-5xl md:text-7xl font-extrabold tracking-tighter 
              bg-gradient-to-r from-[#F472B6] via-[#EC4899] to-[#8B5CF6] 
              bg-clip-text text-transparent"
           >
+            99U
             {t("hero.title3")}
           </h1>
         </div>
