@@ -19,12 +19,12 @@ const Hero = () => {
           {t("hero.title1")} <br />
           {t("hero.title2")}
         </div>
-
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tighter text-white">
-          99Ｕ
-          <span className=" font-extrabold bg-gradient-to-r from-[#8B5CF6] via-[#E879F9] via-[#C084FC] to-[#6366F1] bg-clip-text text-transparent">
-            {t("hero.title3")}
-          </span>
+        <h1
+          className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tighter 
+             bg-gradient-to-r from-[#6D28D9] via-[#8B5CF6] via-[#C084FC] via-[#FACC15] to-[#4C1D95] 
+             bg-clip-text text-transparent"
+        >
+          99Ｕ {t("hero.title3")}
         </h1>
 
         <div className="info rounded-[35px] bg-white/20 backdrop-blur-md border border-white/20 shadow-xl p-6 sm:p-10 text-white w-full max-w-[500px]">
