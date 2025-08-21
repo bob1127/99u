@@ -14,13 +14,13 @@ const Hero = () => {
   return (
     <div className="relative py-6 md:py-20 sm:py-[200px] max-w-[1320px] mx-auto w-[95%] xl:w-[65%] 2xl:w-[65%] z-20 flex flex-col-reverse md:flex-row items-center justify-between h-full px-4 md:px-10">
       {/* 左側：文字區塊 */}
-      <div className="z-50 flex flex-col items-center sm:items-start w-full md:w-1/2 gap-6 text-left">
-        <div className="text-white text-center  sm:text-left font-bold text-2xl sm:text-3xl md:text-4xl">
-          {t("hero.title1")} <br />
+      <div className="z-50 flex flex-col items-center justify-center w-full md:w-1/2 gap-6 text-left">
+        <div className="text-white text-center  sm:text-left flex flex-col items-center justify-center font-bold text-2xl sm:text-3xl md:text-4xl">
+          <div className="text-center h-[10px]"> {t("hero.title1")}</div> <br />
           {t("hero.title2")}
         </div>
         <div className="flex ">
-          <h1 className="text-6xl sm:text-7xl font-extrabold tracking-tighter drop-shadow-[1px_2px_3px_rgba(0,0,0,0.5)]">
+          <h1 className="text-6xl text-center sm:text-7xl font-extrabold tracking-tighter drop-shadow-[1px_2px_3px_rgba(0,0,0,0.5)]">
             {/* 99U：紫→白漸層 + 英文字體 + 斜切；只作用在這段 */}
             <span
               className="font-ethnocentric  skew-x-6
