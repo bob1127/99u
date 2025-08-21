@@ -21,33 +21,33 @@ const Hero = () => {
         </div>
         <div className="flex ">
           <h1 className="text-6xl text-center sm:text-7xl font-extrabold tracking-tighter drop-shadow-[1px_2px_3px_rgba(0,0,0,0.5)]">
-            {/* 99U：紫→白漸層 + 英文字體 + 斜切；只作用在這段 */}
+            {/* 99U：紫→粉→白漸層 + 英文字體 + 斜切 */}
             <span
-              className="font-ethnocentric  skew-x-6
-               bg-gradient-to-r from-purple-600 via-purple-400 to-white
-               bg-clip-text text-transparent text-outline-white-1"
+              className="font-ethnocentric skew-x-6
+     bg-gradient-to-r from-purple-600 via-pink-500 to-fuchsia-300
+     bg-clip-text text-transparent text-outline-white-1"
             >
               99U
             </span>
 
-            {/* 中文：金→白漸層 + CJK 字體；不要 italic / 不要 skew */}
+            {/* 中文：粉紫漸層 + CJK 字體 */}
             <span className="relative inline-block ml-2 font-cjk not-italic text-6xl sm:text-7xl">
-              {/* 底層：白描邊 + 單色，避免透明 */}
-              <span className="absolute inset-0 text-purple-700 text-outline-white-1">
+              {/* 底層：白描邊 + 深紫單色 */}
+              <span className="absolute inset-0 text-fuchsia-700 text-outline-white-1">
                 {t("hero.title3")}
               </span>
 
-              {/* 上層：紫 → 金 → 白 漸層填色 */}
+              {/* 上層：紫 → 粉紅 → 粉紫漸層 */}
               <span
-                className="relative bg-gradient-to-r from-purple-600 via-amber-400 to-white
-               bg-clip-text text-transparent"
+                className="relative bg-gradient-to-r from-purple-600 via-pink-500 to-fuchsia-300
+     bg-clip-text text-transparent"
               >
                 {t("hero.title3")}
               </span>
             </span>
           </h1>
         </div>
-        <div className="info rounded-[35px] bg-white/20 backdrop-blur-md border border-white/20 shadow-xl p-6 sm:p-10 text-white w-full max-w-[500px]">
+        <div className="info rounded-[35px] bg-white/20 backdrop-blur-md border border-white/20 shadow-xl p-6 flex-col flex justify-center items-center sm:p-10 text-white w-full max-w-[500px]">
           <h2 className="text-xl text-center sm:text-left sm:text-2xl text-[#ff219b] font-semibold mb-4">
             {t("hero.bonusTitle")}
           </h2>
