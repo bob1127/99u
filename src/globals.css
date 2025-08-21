@@ -1,29 +1,32 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@font-face {
-  font-family: 'DF-01';
-  src: url('/fonts/DF-01.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+.text-outline-white {
+  -webkit-text-stroke: 2px #ffffff;  /* 白描邊，粗細可調 */
+}
+/* 你的英文字體（略） */
+/* 建議字重範圍，避免 font-extrabold 造成 fallback */
+@font-face{
+  font-family:"Ethnocentric";
+  src:url("/fonts/WOFF2/ethnocentric-rg.woff2") format("woff2");
+  font-weight:100 900;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* 中文黑體 stack：依你環境可調整順序 */
+.font-cjk {
+  font-family:
+    "Noto Sans TC", "Source Han Sans TC", "PingFang TC",
+    "Microsoft JhengHei", "Heiti TC", "PingFang SC", sans-serif;
+}
+
+/* 細白描邊；中文用 1px 比較穩 */
+.text-outline-white-1 {
+  -webkit-text-stroke: 1px #fff;
 }
 
 
-@font-face {
-  font-family: "ResourceHanRoundedCN-Heavy";
-  src: url("/fonts/ResourceHanRoundedCN-Heavy.woff2") format("woff2"),
-       url("/fonts/ResourceHanRoundedCN-Heavy.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
- 
-section{
-  padding-top: 100px;
-  padding-bottom: 100px;
-  position: relative;
-  z-index: 9999999;
-}
 :root{
   /* 購買按鈕 */
   --color-buy-dark:#2c81db;

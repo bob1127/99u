@@ -1,27 +1,10 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@font-face {
-  font-family: 'DF-01';
-  src: url('/fonts/DF-01.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+/* globals.css */
+/* 深色描邊，讓字在任何背景都清楚 */
 
-@font-face {
-  font-family: "WangZheGuiLai";
-  src: url("/fonts/王者歸來-華康海報體W12.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "ResourceHanRoundedCN-Heavy";
-  src: url("/fonts/ResourceHanRoundedCN-Heavy.woff2") format("woff2"),
-       url("/fonts/ResourceHanRoundedCN-Heavy.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
+
 .primary {
   @apply bg-brand text-white rounded-xl px-4 py-2 hover:bg-brand/80 transition;
 }

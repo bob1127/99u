@@ -397,7 +397,7 @@ export default function HomePage({ locale }) {
         <div className="overflow-hidden">
           <Hero />
         </div>
-        <section className="section-card-item z-20 py-10 flex flex-col items-center justify-center">
+        <section className="section-card-item z-50 relative py-10 flex flex-col items-center justify-center">
           {/* 標題區 */}
           <div className="title flex flex-col justify-center items-center max-w-[1920px] w-[85%] mx-auto">
             <h2 className="text-white text-[7vmin] text-center">
@@ -675,7 +675,7 @@ export default function HomePage({ locale }) {
           </div>
         </section>
 
-        <section className="section-blog-carousel-item z-50 relative">
+        <section className="section-blog-carousel-item z-50 pb-[100px] relative">
           <div className="title flex max-w-[1920px] mx-auto w-[85%] flex-col justify-center items-center">
             <h2 className="text-[6vmin] text-white max-w-[800px] text-center">
               {sectionBlog.title}
