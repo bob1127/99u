@@ -20,7 +20,7 @@ const Hero = () => {
           {t("hero.title2")}
         </div>
         <div className="flex ">
-          <h1 className="text-7xl font-extrabold tracking-tighter drop-shadow-[1px_2px_3px_rgba(0,0,0,0.5)]">
+          <h1 className="text-6xl sm:text-7xl font-extrabold tracking-tighter drop-shadow-[1px_2px_3px_rgba(0,0,0,0.5)]">
             {/* 99U：紫→白漸層 + 英文字體 + 斜切；只作用在這段 */}
             <span
               className="font-ethnocentric  skew-x-6
@@ -31,7 +31,7 @@ const Hero = () => {
             </span>
 
             {/* 中文：金→白漸層 + CJK 字體；不要 italic / 不要 skew */}
-            <span className="relative inline-block ml-2 font-cjk not-italic text-7xl">
+            <span className="relative inline-block ml-2 font-cjk not-italic text-6xl sm:text-7xl">
               {/* 底層：白描邊 + 單色，避免透明 */}
               <span className="absolute inset-0 text-purple-700 text-outline-white-1">
                 {t("hero.title3")}
