@@ -26,8 +26,8 @@ export default function CasinoPage() {
   return (
     <>
       <Head>
-        <title>{t("Casino.title")}</title>
-        <meta name="description" content={t("Casino.meta.description")} />
+        <title>{t("CasinoSEO.title")}</title>
+        <meta name="description" content={t("CasinoSEO.description")} />
       </Head>
 
       <div className="px-6 py-20 max-w-4xl mx-auto text-left text-gray-800 space-y-12">

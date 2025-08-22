@@ -26,8 +26,8 @@ export default function PolicyPage() {
   return (
     <>
       <Head>
-        <title>{t("Policy.meta.title")}</title>
-        <meta name="description" content={t("Policy.meta.description")} />
+        <title>{t("PolicySEO.title")}</title>
+        <meta name="description" content={t("PolicySEO.description")} />
       </Head>
 
       <div className="bg-[#f7f7f9] flex justify-center items-center flex-col py-20">

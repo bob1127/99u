@@ -6,7 +6,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "next-i18next";
-
+import Head from "next/head";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 
 const TAB_LABELS = {
@@ -15,8 +15,11 @@ const TAB_LABELS = {
   21: "21\u9ede",
   Roulette: "\u8f2a\u76e4",
 };
-
+const siteUrl = "https://99-u-01.vercel.app";
 export default function BlogIndex({ posts }) {
+  const { locale: routerLocale, asPath } = useRouter();
+  const fullUrl = `${siteUrl}${asPath}`;
+  const ogImage = `${siteUrl}/images/solt-machine/card-img01.png`;
   const { t } = useTranslation("common"); // 假設翻譯檔放在 common.json
   const TAB_KEYS = ["Slot Machine", "poker", "21", "Roulette", "casino"];
 
@@ -48,6 +51,53 @@ export default function BlogIndex({ posts }) {
 
   return (
     <div className=" py-4 md:py-[60px] bg-gray-900 text-white px-4">
+      <Head>
+        {/* SEO Meta Tags */}
+        <title>{t("blogSEO.title")}</title>
+        <meta name="description" content={t("blogSEO.description")} />
+        <meta name="keywords" content={t("blogSEO.keywords")} />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href={fullUrl} />
+        <meta name="author" content="99U Entertainment" />
+        <meta name="publisher" content="99U Entertainment" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content={routerLocale} />
+
+        <meta property="og:title" content={t("blogSEO.title")} />
+        <meta property="og:description" content={t("blogSEO.description")} />
+        <meta property="og:url" content={fullUrl} />
+        <meta property="og:site_name" content={t("site.name")} />
+        <meta property="og:image" content={ogImage} />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={t("blogSEO.title")} />
+        <meta name="twitter:description" content={t("blogSEO.description")} />
+        <meta name="twitter:image" content={ogImage} />
+
+        {/* Hreflang 多語系設定 */}
+        <link
+          rel="alternate"
+          hrefLang="zh-Hant"
+          href={`${siteUrl}/zh-Hant${asPath}`}
+        />
+        <link
+          rel="alternate"
+          hrefLang="zh-CN"
+          href={`${siteUrl}/zh-CN${asPath}`}
+        />
+        <link rel="alternate" hrefLang="en" href={`${siteUrl}/en${asPath}`} />
+        <link rel="alternate" hrefLang="th" href={`${siteUrl}/th${asPath}`} />
+        <link rel="alternate" hrefLang="vi" href={`${siteUrl}/vi${asPath}`} />
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href={`${siteUrl}${asPath}`}
+        />
+      </Head>
       <div className="max-w-[1920px] w-[96%]  sm:w-[80%] mx-auto">
         <section className="section-hot-blog flex bg-white/10 backdrop-blur-md border border-white/20 rounded-xl flex-col shadow-md p-2 sm:p-8 my-10">
           <div className="title">

@@ -3,7 +3,7 @@
 import { useTranslation } from "next-i18next";
 import { useEffect, useState } from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-
+import Head from "next/head";
 export default function AboutPage() {
   const { t } = useTranslation("common");
   const [missionList, setMissionList] = useState([]);
@@ -17,6 +17,10 @@ export default function AboutPage() {
 
   return (
     <div class=" w-full ">
+      <Head>
+        <title>{t("aboutSEO.title")}</title>
+        <meta name="description" content={t("aboutSEO.description")} />
+      </Head>
       <div className="px-6 py-20  max-w-3xl mx-auto text-left">
         {/* Hero Title */}
         <h1 className="text-4xl  font-bold mb-16 text-center">

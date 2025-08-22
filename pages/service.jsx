@@ -18,8 +18,8 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>{t("About.hero.title")}</title>
-        <meta name="description" content={t("About.cta.p1")} />
+        <title>{t("serviceSEO.title")}</title>
+        <meta name="description" content={t("serviceSEO.description")} />
       </Head>
 
       <div className="px-6 py-20 max-w-4xl mx-auto text-left text-gray-800 space-y-12">
