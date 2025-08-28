@@ -21,7 +21,7 @@ export default function HomePage() {
   const sectionGrid = t("sectionGrid", { returnObjects: true });
   const sectionBlog = t("sectionBlog", { returnObjects: true });
 
-  const siteUrl = "https://99-u-01.vercel.app"; // ✅ 替換為正式網址
+  const siteUrl = "https://www.99ubit.bet"; // ✅ 替換為正式網址
   const fullUrl = `${siteUrl}${asPath}`;
   const ogImage = `${siteUrl}/images/solt-machine/card-img01.png`;
 

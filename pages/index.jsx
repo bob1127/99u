@@ -91,7 +91,7 @@ const ReviewCard = ({ img, name, username, body }) => {
     </figure>
   );
 };
-const siteUrl = "https://99-u-01.vercel.app"; // ✅ 替換為正式網址
+const siteUrl = "https://www.99ubit.bet"; // ✅ 替換為正式網址
 export default function HomePage({ locale }) {
   const { locale: routerLocale, asPath } = useRouter();
   const fullUrl = `${siteUrl}${asPath}`;

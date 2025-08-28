@@ -15,7 +15,7 @@ const TAB_LABELS = {
   21: "21\u9ede",
   Roulette: "\u8f2a\u76e4",
 };
-const siteUrl = "https://99-u-01.vercel.app";
+const siteUrl = "https://www.99ubit.bet";
 export default function BlogIndex({ posts }) {
   const { locale: routerLocale, asPath } = useRouter();
   const fullUrl = `${siteUrl}${asPath}`;
