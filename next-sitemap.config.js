@@ -10,10 +10,10 @@ const WP_BASE =
   process.env.NEXT_PUBLIC_WP_API_BASE_URL ||
   'https://wordpress-861686-5705144.cloudwaysapps.com';
 
+/** ---- 小工具：抓取與日期正規化 ---- */
 async function fetchAll(endpoint, perPage = 100) {
   const out = [];
   let page = 1;
-  // 取 slug & modified 以縮小 payload
   while (true) {
     const url = `${WP_BASE}/wp-json/wp/v2/${endpoint}?per_page=${perPage}&page=${page}&_fields=slug,modified`;
     const res = await fetch(url);
@@ -26,46 +26,55 @@ async function fetchAll(endpoint, perPage = 100) {
   return out;
 }
 
+/** 轉成 YYYY-MM-DD（UTC）——最不出錯的格式 */
+function toDateOnlyUTC(d) {
+  if (!d) return undefined;
+  const dt = new Date(d);
+  if (isNaN(dt.getTime())) return undefined;
+  const yyyy = dt.getUTCFullYear();
+  const mm = String(dt.getUTCMonth() + 1).padStart(2, '0');
+  const dd = String(dt.getUTCDate()).padStart(2, '0');
+  return `${yyyy}-${mm}-${dd}`;
+}
+
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: SITE_URL,
   generateRobotsTxt: true,
   sitemapSize: 5000,
   exclude: ['/api/*', '/404', '/500'],
-  // 和你的 next.config.js 保持一致（你目前是 false）
   trailingSlash: false,
 
-  // 可自訂優先權/更新頻率
+  // 統一輸出「純日期」避免毫秒/時區問題
   transform: async (config, path) => ({
     loc: path,
     changefreq: path === '/' ? 'daily' : 'weekly',
     priority: path === '/' ? 1.0 : 0.7,
-    lastmod: new Date().toISOString(),
+    lastmod: toDateOnlyUTC(new Date()), // ← 這裡不再用 .toISOString()
   }),
 
-  /** 這裡把 WP 的內容路由加進 sitemap */
+  /** 把 WP 內容路由加進 sitemap（lastmod 也正規化） */
   additionalPaths: async (config) => {
     const extra = [];
 
-    // 1) WP 文章 → 你網站的實際路由（請依你的站改 '/blog/[slug]' 或其他）
+    // 1) WP 文章 => 你站上的文章路由
     const posts = await fetchAll('posts');
     for (const p of posts) {
       extra.push({
-        loc: `/blog/${p.slug}`, // ← 若你的文章路由不同，改這裡
-        lastmod: p.modified || new Date().toISOString(),
+        loc: `/blog/${p.slug}`,          // ← 若你的文章路由不同，改這裡
+        lastmod: toDateOnlyUTC(p.modified) || toDateOnlyUTC(new Date()),
         changefreq: 'weekly',
         priority: 0.7,
       });
     }
 
-    // 2) WP Pages（若有對應前端頁面，以 /[slug] 呈現可保留；沒有就刪掉這段）
+    // 2) WP Pages（如果你真的有對應的頁面才保留）
     const pages = await fetchAll('pages');
     for (const pg of pages) {
-      // 常見首頁/特殊頁 slug 可能是 'home' 等，可在這裡過濾
       if (pg.slug && pg.slug !== 'home') {
         extra.push({
           loc: `/${pg.slug}`,
-          lastmod: pg.modified || new Date().toISOString(),
+          lastmod: toDateOnlyUTC(pg.modified) || toDateOnlyUTC(new Date()),
           changefreq: 'monthly',
           priority: 0.6,
         });
