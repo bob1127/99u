@@ -1,28 +1,58 @@
-// BlogIndex.tsx
+// app/blog/BlogIndex.jsx
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Image from "next/image";
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import Head from "next/head";
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 
-const TAB_LABELS = {
-  "Slot Machine": "\u8001\u864e\u6a5f",
-  poker: "\u5361\u724c\u904a\u6232",
-  21: "21\u9ede",
-  Roulette: "\u8f2a\u76e4",
-};
+/* ------------------------- i18n URL helpers ------------------------- */
+const SUPPORTED_LOCALES = ["zh-Hant", "zh-CN", "en", "th", "vi"];
+
+function stripLocalePrefix(asPath) {
+  const clean = asPath.split(/[?#]/)[0];
+  const segs = clean.split("/");
+  if (SUPPORTED_LOCALES.includes(segs[1])) segs.splice(1, 1);
+  const path = segs.join("/") || "/";
+  return path.startsWith("/") ? path : `/${path}`;
+}
+
+function withLocalePath(cleanPath, locale) {
+  if (!locale) return cleanPath; // x-default
+  return cleanPath === "/" ? `/${locale}` : `/${locale}${cleanPath}`;
+}
+
+function toOgLocale(locale) {
+  switch (locale) {
+    case "zh-TW":
+      return "zh_TW";
+    case "zh-CN":
+      return "zh_CN";
+    case "en":
+      return "en_US";
+    case "th":
+      return "th_TH";
+    case "vi":
+      return "vi_VN";
+    default:
+      return "en_US";
+  }
+}
+
+/* ------------------------- Page ------------------------- */
 const siteUrl = "https://www.99ubit.bet";
-export default function BlogIndex({ posts }) {
-  const { locale: routerLocale, asPath } = useRouter();
-  const fullUrl = `${siteUrl}${asPath}`;
-  const ogImage = `${siteUrl}/images/solt-machine/card-img01.png`;
-  const { t } = useTranslation("common"); // 假設翻譯檔放在 common.json
-  const TAB_KEYS = ["Slot Machine", "poker", "21", "Roulette", "casino"];
 
+export default function BlogIndex({ posts }) {
+  const { locale, asPath } = useRouter();
+  const { t } = useTranslation("common");
+
+  const cleanPath = stripLocalePrefix(asPath);
+  const canonical = `${siteUrl}${withLocalePath(cleanPath, locale)}`;
+  const xDefault = `${siteUrl}${withLocalePath(cleanPath)}`;
+  const ogImage = `${siteUrl}/images/solt-machine/card-img01.png`;
+
+  const TAB_KEYS = ["Slot Machine", "poker", "21", "Roulette", "casino"];
   const TAB_LABELS = {
     "Slot Machine": t("tab.slot"),
     poker: t("tab.poker"),
@@ -30,7 +60,7 @@ export default function BlogIndex({ posts }) {
     Roulette: t("tab.roulette"),
     casino: t("tab.casino"),
   };
-  const { locale } = useRouter();
+
   const [activeTab, setActiveTab] = useState("Slot Machine");
 
   const categorizedPosts = Object.keys(TAB_LABELS).reduce((acc, key) => {
@@ -50,25 +80,24 @@ export default function BlogIndex({ posts }) {
     .slice(0, 4);
 
   return (
-    <div className=" py-4 md:py-[60px] bg-gray-900 text-white px-4">
+    <div className="py-4 md:py-[60px] bg-gray-900 text-white px-4">
       <Head>
-        {/* SEO Meta Tags */}
         <title>{t("blogSEO.title")}</title>
         <meta name="description" content={t("blogSEO.description")} />
         <meta name="keywords" content={t("blogSEO.keywords")} />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href={fullUrl} />
+        <link rel="canonical" href={canonical} />
         <meta name="author" content="99U Entertainment" />
         <meta name="publisher" content="99U Entertainment" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content={routerLocale} />
+        <meta property="og:locale" content={toOgLocale(locale)} />
 
         <meta property="og:title" content={t("blogSEO.title")} />
         <meta property="og:description" content={t("blogSEO.description")} />
-        <meta property="og:url" content={fullUrl} />
+        <meta property="og:url" content={canonical} />
         <meta property="og:site_name" content={t("site.name")} />
         <meta property="og:image" content={ogImage} />
 
@@ -78,27 +107,38 @@ export default function BlogIndex({ posts }) {
         <meta name="twitter:description" content={t("blogSEO.description")} />
         <meta name="twitter:image" content={ogImage} />
 
-        {/* Hreflang 多語系設定 */}
+        {/* ✅ 正確 hreflang：避免雙前綴 */}
         <link
           rel="alternate"
           hrefLang="zh-Hant"
-          href={`${siteUrl}/zh-Hant${asPath}`}
+          href={`${siteUrl}${withLocalePath(cleanPath, "zh-Hant")}`}
         />
         <link
           rel="alternate"
           hrefLang="zh-CN"
-          href={`${siteUrl}/zh-CN${asPath}`}
+          href={`${siteUrl}${withLocalePath(cleanPath, "zh-CN")}`}
         />
-        <link rel="alternate" hrefLang="en" href={`${siteUrl}/en${asPath}`} />
-        <link rel="alternate" hrefLang="th" href={`${siteUrl}/th${asPath}`} />
-        <link rel="alternate" hrefLang="vi" href={`${siteUrl}/vi${asPath}`} />
+
         <link
           rel="alternate"
-          hrefLang="x-default"
-          href={`${siteUrl}${asPath}`}
+          hrefLang="en"
+          href={`${siteUrl}${withLocalePath(cleanPath, "en")}`}
         />
+        <link
+          rel="alternate"
+          hrefLang="th"
+          href={`${siteUrl}${withLocalePath(cleanPath, "th")}`}
+        />
+        <link
+          rel="alternate"
+          hrefLang="vi"
+          href={`${siteUrl}${withLocalePath(cleanPath, "vi")}`}
+        />
+        <link rel="alternate" hrefLang="x-default" href={xDefault} />
       </Head>
-      <div className="max-w-[1920px] w-[96%]  sm:w-[80%] mx-auto">
+
+      <div className="max-w-[1920px] w-[96%] sm:w-[80%] mx-auto">
+        {/* 熱門文章 */}
         <section className="section-hot-blog flex bg-white/10 backdrop-blur-md border border-white/20 rounded-xl flex-col shadow-md p-2 sm:p-8 my-10">
           <div className="title">
             <h2 className="text-3xl md:text-5xl text-center sm:text-left my-5 text-white">
@@ -107,10 +147,10 @@ export default function BlogIndex({ posts }) {
           </div>
 
           <div className="flex flex-col lg:flex-row gap-6">
-            {/* 主打文章 */}
             {hotPosts[0] && (
               <Link
                 href={`/blog/${hotPosts[0].acf?.acf_slug}`}
+                locale={locale}
                 className="left transition duration-300 group hover:bg-white rounded-[13px] w-full lg:w-1/2 overflow-hidden"
               >
                 <div className="hot-hero-item p-2 flex flex-col h-full">
@@ -150,13 +190,13 @@ export default function BlogIndex({ posts }) {
               </Link>
             )}
 
-            {/* 熱門文章列表 */}
             <div className="right w-full lg:w-1/2 px-0 lg:px-8">
               <div className="hot-blog flex flex-col">
                 {hotPosts.slice(1).map((post) => (
                   <Link
                     key={post.id}
                     href={`/blog/${post.acf?.acf_slug}`}
+                    locale={locale}
                     className="item hover:bg-white p-2 group rounded-[10px] transition duration-300 flex flex-col sm:flex-row mb-4 gap-4"
                   >
                     <div className="right w-full sm:w-1/3">
@@ -208,13 +248,13 @@ export default function BlogIndex({ posts }) {
             <button
               key={key}
               onClick={() => setActiveTab(key)}
-              className={` px-1 sm:px-6 w-[140px] py-2 rounded-full font-semibold transition ${
+              className={`px-1 sm:px-6 w-[140px] py-2 rounded-full font-semibold transition ${
                 activeTab === key
                   ? "bg-white text-black"
                   : "bg-white/20 text-white hover:bg-white/30"
               }`}
             >
-              {t(`tab.${key}`)}
+              {TAB_LABELS[key]}
             </button>
           ))}
         </div>
@@ -224,7 +264,6 @@ export default function BlogIndex({ posts }) {
           {categorizedPosts[activeTab]?.map((post) => {
             const featuredImage =
               post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
-
             return (
               <div
                 key={post.id}
@@ -241,7 +280,6 @@ export default function BlogIndex({ posts }) {
                     />
                   </Link>
                 )}
-
                 <div className="p-5">
                   <Link
                     href={`/blog/${post.acf.acf_slug}`}
@@ -270,7 +308,6 @@ export async function getStaticProps({ locale }) {
     `https://wordpress-861686-5705144.cloudwaysapps.com/wp-json/wp/v2/posts?per_page=100&_embed`
   );
   const allPosts = await res.json();
-
   const posts = allPosts.filter((post) => post.acf?.lang === locale);
 
   return {
